@@ -102,6 +102,10 @@
       "type": "build"
     },
     {
+      "name": "@pepperize/cdk-organizations",
+      "type": "runtime"
+    },
+    {
       "name": "aws-cdk-lib",
       "version": "^2.1.0",
       "type": "runtime"
