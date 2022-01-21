@@ -9,9 +9,7 @@ const project = new AwsCdkTypeScriptApp({
   repositoryUrl: "https://github.com/pepperize/cdk-organizations-example.git",
 
   deps: ["@pepperize/cdk-organizations"],
-  devDeps: [
-    "@pepperize/projen-awscdk-app-ts",
-  ],
+  devDeps: ["@pepperize/projen-awscdk-app-ts"],
 
   requireApproval: awscdk.ApprovalLevel.NEVER,
 });
