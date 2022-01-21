@@ -59,7 +59,7 @@
     "typescript": "^4.5.5"
   },
   "dependencies": {
-    "@pepperize/cdk-organizations": "^0.0.55",
+    "@pepperize/cdk-organizations": "^0.0.59",
     "aws-cdk-lib": "^2.1.0",
     "constructs": "^10.0.5"
   },

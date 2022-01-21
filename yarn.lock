@@ -680,10 +680,10 @@
   resolved "https://registry.yarnpkg.com/@oozcitak/util/-/util-8.3.8.tgz#10f65fe1891fd8cde4957360835e78fd1936bfdd"
   integrity sha512-T8TbSnGsxo6TDBJx/Sgv/BlVJL3tshxZP7Aq5R1mSnM5OcHY2dQaxLMu2+E8u3gN0MLOzdjurqN4ZRVuzQycOQ==
 
-"@pepperize/cdk-organizations@^0.0.55":
-  version "0.0.55"
-  resolved "https://registry.yarnpkg.com/@pepperize/cdk-organizations/-/cdk-organizations-0.0.55.tgz#20b0873bd4107522693c69f44676dc4adc53f2c9"
-  integrity sha512-SKwvgOIyRxIXV7XERPtT8L/6zcg5RlBC8YUCAWTwPpW19PAw8sdpg1ZZOvshYyz8Xu7MN1jRvdq+uYaLx+Asaw==
+"@pepperize/cdk-organizations@^0.0.59":
+  version "0.0.59"
+  resolved "https://registry.yarnpkg.com/@pepperize/cdk-organizations/-/cdk-organizations-0.0.59.tgz#f1400d61d2d11fcc7c8ca95ce4d1fa966d441534"
+  integrity sha512-4KYCSgeea/pbZSQ4ahLvm7WIBfmv6D/2kuKb8skGlhJMCovkznI2++j7tZnhoDCNN4fLi+HLi8k+RQ7TLxSqjQ==
   dependencies:
     aws-lambda "^1.0.7"
     aws-sdk "^2.1058.0"
