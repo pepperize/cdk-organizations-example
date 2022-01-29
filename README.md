@@ -15,6 +15,15 @@ This is an example of creating the AWS Organization, Aws Organizational Unit and
 
 ## Quick Start
 
+- go to example-stack.ts and create an account with your email:
+```typescript
+new Account(this, "Example", {
+  accountName: "example",
+  email: "your_email+example@gmail.com",
+  parent: organizationalUnit
+});
+```
+
 ```shell
 yarn install
 ```
