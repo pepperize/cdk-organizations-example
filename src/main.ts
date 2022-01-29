@@ -9,6 +9,9 @@ const devEnv = {
 
 const app = new App();
 
-new ExampleStack(app, "Example", { env: devEnv });
+new ExampleStack(app, "Example", {
+  email: "your_email+example@gmail.com",
+  env: devEnv,
+});
 
 app.synth();

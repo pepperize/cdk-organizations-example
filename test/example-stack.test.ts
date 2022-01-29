@@ -5,7 +5,9 @@ import { ExampleStack } from "../src/example-stack";
 describe("OrganizationStack", () => {
   it("Should have snapshot", () => {
     const app = new App();
-    const stack = new ExampleStack(app, "test", {});
+    const stack = new ExampleStack(app, "test", {
+      email: "your_email+example@gmail.com",
+    });
 
     const template = Template.fromStack(stack);
     expect(template.toJSON()).toMatchSnapshot();
@@ -13,10 +15,12 @@ describe("OrganizationStack", () => {
 
   it("Should an organization custom resource", () => {
     const app = new App();
-    const stack = new ExampleStack(app, "test", {});
+    const stack = new ExampleStack(app, "test", {
+      email: "your_email+example@gmail.com",
+    });
 
     const template = Template.fromStack(stack);
-    template.resourceCountIs("Custom::Organization_Organization", 1);
-    template.resourceCountIs("Custom::Organization_Root", 1);
+    template.resourceCountIs("Custom::Organizations_Organization", 1);
+    template.resourceCountIs("Custom::Organizations_Root", 1);
   });
 });
