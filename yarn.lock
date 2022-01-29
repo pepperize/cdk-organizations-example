@@ -680,13 +680,14 @@
   resolved "https://registry.yarnpkg.com/@oozcitak/util/-/util-8.3.8.tgz#10f65fe1891fd8cde4957360835e78fd1936bfdd"
   integrity sha512-T8TbSnGsxo6TDBJx/Sgv/BlVJL3tshxZP7Aq5R1mSnM5OcHY2dQaxLMu2+E8u3gN0MLOzdjurqN4ZRVuzQycOQ==
 
-"@pepperize/cdk-organizations@^0.0.59":
-  version "0.0.59"
-  resolved "https://registry.yarnpkg.com/@pepperize/cdk-organizations/-/cdk-organizations-0.0.59.tgz#f1400d61d2d11fcc7c8ca95ce4d1fa966d441534"
-  integrity sha512-4KYCSgeea/pbZSQ4ahLvm7WIBfmv6D/2kuKb8skGlhJMCovkznI2++j7tZnhoDCNN4fLi+HLi8k+RQ7TLxSqjQ==
+"@pepperize/cdk-organizations@latest":
+  version "0.0.92"
+  resolved "https://registry.yarnpkg.com/@pepperize/cdk-organizations/-/cdk-organizations-0.0.92.tgz#fd58de4097641f7a69d0b439de5dbcee14eea87b"
+  integrity sha512-XPvk6HzZx9VDtpETqjiBjQ1/jfjeMlFX6B8gmPYutbSRwn7JnLuwUbGmgP1xTsewcZdK+yENvQxp6pXesmG6Zg==
   dependencies:
     aws-lambda "^1.0.7"
-    aws-sdk "^2.1058.0"
+    aws-sdk "^2.1062.0"
+    pascal-case "^3.1.2"
 
 "@pepperize/projen-awscdk-app-ts@^0.0.5":
   version "0.0.5"
@@ -1247,7 +1248,22 @@ aws-lambda@^1.0.7:
     js-yaml "^3.14.1"
     watchpack "^2.0.0-beta.10"
 
-aws-sdk@^2.1058.0, aws-sdk@^2.814.0, aws-sdk@^2.848.0, aws-sdk@^2.979.0:
+aws-sdk@^2.1062.0:
+  version "2.1066.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1066.0.tgz#2a9b00d983f3c740a7adda18d4e9a5c34d4d3887"
+  integrity sha512-9BZPdJgIvau8Jf2l3PxInNqQd733uKLqGGDywMV71duxNTLgdBZe2zvCkbgl22+ldC8R2LVMdS64DzchfQIxHg==
+  dependencies:
+    buffer "4.9.2"
+    events "1.1.1"
+    ieee754 "1.1.13"
+    jmespath "0.16.0"
+    querystring "0.2.0"
+    sax "1.2.1"
+    url "0.10.3"
+    uuid "3.3.2"
+    xml2js "0.4.19"
+
+aws-sdk@^2.814.0, aws-sdk@^2.848.0, aws-sdk@^2.979.0:
   version "2.1061.0"
   resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1061.0.tgz#79c75e6856e5a59e0857d0d066a8ff5ff5e0d752"
   integrity sha512-T29yV+EPo4Fis9hAArxAXS/u6utKnlBq3DEu85LTSIA8i6e6Xg7e9u7Rveo8DmrlVrf7EGCNThaeF9WERHnwLg==
@@ -4409,6 +4425,13 @@ lodash@^4.17.15, lodash@^4.17.21, lodash@^4.7.0:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
+lower-case@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/lower-case/-/lower-case-2.0.2.tgz#6fa237c63dbdc4a82ca0fd882e4722dc5e634e28"
+  integrity sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==
+  dependencies:
+    tslib "^2.0.3"
+
 lowercase-keys@^1.0.0, lowercase-keys@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/lowercase-keys/-/lowercase-keys-1.0.1.tgz#6f9e30b47084d971a7c820ff15a6c5167b74c26f"
@@ -4723,6 +4746,14 @@ next-tick@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
+
+no-case@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/no-case/-/no-case-3.0.4.tgz#d361fd5c9800f558551a8369fc0dcd4662b6124d"
+  integrity sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg==
+  dependencies:
+    lower-case "^2.0.2"
+    tslib "^2.0.3"
 
 node-gyp@^8.2.0:
   version "8.4.1"
@@ -5139,6 +5170,14 @@ parse5@6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/parse5/-/parse5-6.0.1.tgz#e1a1c085c569b3dc08321184f19a39cc27f7c30b"
   integrity sha512-Ofn/CTFzRGTTxwpNEs9PP93gXShHcTq255nzRYSKe8AkVpZY7e1fpmTfOyoIvjP5HG7Z2ZM7VS9PPhQGW2pOpw==
+
+pascal-case@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/pascal-case/-/pascal-case-3.1.2.tgz#b48e0ef2b98e205e7c1dae747d0b1508237660eb"
+  integrity sha512-uWlGT3YSnK9x3BQJaOdcZwrnV6hPpd8jFH1/ucpiLRPh/2zCVJKS19E4GvYHvaCcACn3foXZ0cLB9Wrx1KGe5g==
+  dependencies:
+    no-case "^3.0.4"
+    tslib "^2.0.3"
 
 path-exists@^3.0.0:
   version "3.0.0"
@@ -6213,7 +6252,7 @@ tslib@^1.8.1:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@^2.0.1:
+tslib@^2.0.1, tslib@^2.0.3:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
   integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
