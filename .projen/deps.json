@@ -103,7 +103,6 @@
     },
     {
       "name": "@pepperize/cdk-organizations",
-      "version": "latest",
       "type": "runtime"
     },
     {

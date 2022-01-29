@@ -680,7 +680,7 @@
   resolved "https://registry.yarnpkg.com/@oozcitak/util/-/util-8.3.8.tgz#10f65fe1891fd8cde4957360835e78fd1936bfdd"
   integrity sha512-T8TbSnGsxo6TDBJx/Sgv/BlVJL3tshxZP7Aq5R1mSnM5OcHY2dQaxLMu2+E8u3gN0MLOzdjurqN4ZRVuzQycOQ==
 
-"@pepperize/cdk-organizations@latest":
+"@pepperize/cdk-organizations@^0.0.92":
   version "0.0.92"
   resolved "https://registry.yarnpkg.com/@pepperize/cdk-organizations/-/cdk-organizations-0.0.92.tgz#fd58de4097641f7a69d0b439de5dbcee14eea87b"
   integrity sha512-XPvk6HzZx9VDtpETqjiBjQ1/jfjeMlFX6B8gmPYutbSRwn7JnLuwUbGmgP1xTsewcZdK+yENvQxp6pXesmG6Zg==
