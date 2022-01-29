@@ -1,5 +1,5 @@
 import { Account, Organization, OrganizationalUnit } from "@pepperize/cdk-organizations";
-import { Annotations, Stack, StackProps } from "aws-cdk-lib";
+import { Annotations, Stack, StackProps, Tags } from "aws-cdk-lib";
 import { Construct } from "constructs";
 
 export interface OrganizationStackProps extends StackProps {}
@@ -21,17 +21,13 @@ export class ExampleStack extends Stack {
       organizationalUnitName: "example",
     });
 
-    // Import an existing organizational unit (OU)
-    OrganizationalUnit.fromOrganizationalUnitId(this, "ImportedOU", {
-      parent: organization.root,
-      organizationalUnitId: organizationalUnit.identifier(),
-    });
-
     // Create an account, nested in the example organizational unit
     new Account(this, "Example", {
       accountName: "example",
-      email: "patrick.florek+example@gmail.com",
+      email: "your_email+example@gmail.com",
       parent: organizationalUnit,
     });
+
+    Tags.of(this).add("ExampleTagKey", "ExampleTagValue", {});
   }
 }
