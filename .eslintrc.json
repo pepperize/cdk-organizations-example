@@ -41,7 +41,8 @@
     "*.d.ts",
     "node_modules/",
     "*.generated.ts",
-    "coverage"
+    "coverage",
+    ".yalc/"
   ],
   "rules": {
     "prettier/prettier": [

@@ -680,10 +680,10 @@
   resolved "https://registry.yarnpkg.com/@oozcitak/util/-/util-8.3.8.tgz#10f65fe1891fd8cde4957360835e78fd1936bfdd"
   integrity sha512-T8TbSnGsxo6TDBJx/Sgv/BlVJL3tshxZP7Aq5R1mSnM5OcHY2dQaxLMu2+E8u3gN0MLOzdjurqN4ZRVuzQycOQ==
 
-"@pepperize/cdk-organizations@^0.0.104":
-  version "0.0.104"
-  resolved "https://registry.yarnpkg.com/@pepperize/cdk-organizations/-/cdk-organizations-0.0.104.tgz#91b4e63c43f1ef33adbfc3d65b09e4e2886d4749"
-  integrity sha512-IQKTackPb0amiEHl23IbLW87lOqpRRlyfsL9D43f6taPHTw26PNX8kr/llSCn/StXtbvuEE4nTzY/12vnhzaiQ==
+"@pepperize/cdk-organizations@^0.0.106":
+  version "0.0.106"
+  resolved "https://registry.yarnpkg.com/@pepperize/cdk-organizations/-/cdk-organizations-0.0.106.tgz#f6d84ddd8fb9d0dc76f94dd9ecee86ced9de5731"
+  integrity sha512-7QlEGobiHNXYR3lkOHsmlf4TGTbMa0+JSqkWLu6iQ+shma/p8nX77LDwASVOjJt4GrNq7b6oXdneiaJbZFPH/g==
   dependencies:
     pascal-case "^3.1.2"
 
@@ -1194,10 +1194,8 @@ at-least-node@^1.0.0:
   resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
-aws-bootstrap-kit@^0.4.0:
+"aws-bootstrap-kit@file:.yalc/aws-bootstrap-kit":
   version "0.4.0"
-  resolved "https://registry.yarnpkg.com/aws-bootstrap-kit/-/aws-bootstrap-kit-0.4.0.tgz#fe4500850ed377966ec4db7c2fcccc736b98b40a"
-  integrity sha512-k1sgI2ADHzzQJcw2y2qgCIGZDi2BNpfv+4gyraFHbeX2p5iv31mgm2pFTr0NxIgh+9ZdZoMdsD9OxgXEeoZmfw==
   dependencies:
     aws-cdk-lib "2.1.0"
     constructs "10.0.12"

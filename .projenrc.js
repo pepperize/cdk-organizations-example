@@ -8,9 +8,19 @@ const project = new AwsCdkTypeScriptApp({
   name: "@pepperize/cdk-organizations-example",
   repositoryUrl: "https://github.com/pepperize/cdk-organizations-example.git",
 
-  deps: ["@pepperize/cdk-organizations"],
-  devDeps: ["@pepperize/projen-awscdk-app-ts", "aws-bootstrap-kit", "@seeebiii/ses-verify-identities"],
+  deps: [
+    "@pepperize/cdk-organizations",
+    "aws-bootstrap-kit@file:.yalc/aws-bootstrap-kit",
+    "@seeebiii/ses-verify-identities",
+  ],
+  devDeps: ["@pepperize/projen-awscdk-app-ts"],
 
   requireApproval: awscdk.ApprovalLevel.NEVER,
 });
+
+project.gitignore.include(".yalc/");
+project.gitignore.include("yalc.lock");
+project.eslint.addIgnorePattern(".yalc/");
+project.jest.addIgnorePattern(".yalc/");
+
 project.synth();
