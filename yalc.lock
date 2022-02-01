@@ -1,0 +1,11 @@
+{
+  "version": "v1",
+  "packages": {
+    "aws-bootstrap-kit": {
+      "version": "0.4.0",
+      "signature": "af2b3a4cbf0fa88de7078ad3f679a333",
+      "file": true,
+      "replaced": "^0.4.0"
+    }
+  }
+}

@@ -5,10 +5,6 @@
       "type": "build"
     },
     {
-      "name": "@seeebiii/ses-verify-identities",
-      "type": "build"
-    },
-    {
       "name": "@types/jest",
       "type": "build"
     },
@@ -25,10 +21,6 @@
     {
       "name": "@typescript-eslint/parser",
       "version": "^5",
-      "type": "build"
-    },
-    {
-      "name": "aws-bootstrap-kit",
       "type": "build"
     },
     {
@@ -111,6 +103,15 @@
     },
     {
       "name": "@pepperize/cdk-organizations",
+      "type": "runtime"
+    },
+    {
+      "name": "@seeebiii/ses-verify-identities",
+      "type": "runtime"
+    },
+    {
+      "name": "aws-bootstrap-kit",
+      "version": "file:.yalc/aws-bootstrap-kit",
       "type": "runtime"
     },
     {

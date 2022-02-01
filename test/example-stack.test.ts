@@ -6,7 +6,7 @@ describe("OrganizationStack", () => {
   it("Should have snapshot", () => {
     const app = new App();
     const stack = new ExampleStack(app, "test", {
-      email: "your_email+example@gmail.com",
+      email: "your_email@gmail.com",
     });
 
     const template = Template.fromStack(stack);
@@ -16,7 +16,7 @@ describe("OrganizationStack", () => {
   it("Should an organization custom resource", () => {
     const app = new App();
     const stack = new ExampleStack(app, "test", {
-      email: "your_email+example@gmail.com",
+      email: "your_email@gmail.com",
     });
 
     const template = Template.fromStack(stack);
