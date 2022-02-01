@@ -5,6 +5,10 @@
       "type": "build"
     },
     {
+      "name": "@seeebiii/ses-verify-identities",
+      "type": "build"
+    },
+    {
       "name": "@types/jest",
       "type": "build"
     },
@@ -21,6 +25,10 @@
     {
       "name": "@typescript-eslint/parser",
       "version": "^5",
+      "type": "build"
+    },
+    {
+      "name": "aws-bootstrap-kit",
       "type": "build"
     },
     {

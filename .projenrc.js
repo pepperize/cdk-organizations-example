@@ -9,7 +9,7 @@ const project = new AwsCdkTypeScriptApp({
   repositoryUrl: "https://github.com/pepperize/cdk-organizations-example.git",
 
   deps: ["@pepperize/cdk-organizations"],
-  devDeps: ["@pepperize/projen-awscdk-app-ts"],
+  devDeps: ["@pepperize/projen-awscdk-app-ts", "aws-bootstrap-kit", "@seeebiii/ses-verify-identities"],
 
   requireApproval: awscdk.ApprovalLevel.NEVER,
 });
