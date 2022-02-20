@@ -1,7 +1,6 @@
 import { Account, Organization, OrganizationalUnit } from "@pepperize/cdk-organizations";
 import { VerifySesEmailAddress } from "@seeebiii/ses-verify-identities";
 import { SecureRootUser } from "aws-bootstrap-kit";
-import { ConfigRecorder } from "aws-bootstrap-kit/lib/aws-config-recorder";
 import { OrganizationTrail } from "aws-bootstrap-kit/lib/organization-trail";
 import { Annotations, Stack, StackProps, Tags } from "aws-cdk-lib";
 import { Construct } from "constructs";
@@ -59,8 +58,6 @@ export class ExampleStack extends Stack {
       OrganizationId: organization.organizationId,
     });
     organizationTrail.node.addDependency(organization);
-    const configRecorder = new ConfigRecorder(this, "ConfigRecorder");
-    configRecorder.node.addDependency(organization);
     const secureRootUser = new SecureRootUser(this, "SecureRootUser", email);
     secureRootUser.node.addDependency(organization);
 
