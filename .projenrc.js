@@ -10,7 +10,7 @@ const project = new AwsCdkTypeScriptApp({
 
   deps: [
     "@pepperize/cdk-organizations",
-    "aws-bootstrap-kit@file:.yalc/aws-bootstrap-kit",
+    "aws-bootstrap-kit",
     "@seeebiii/ses-verify-identities",
   ],
   devDeps: ["@pepperize/projen-awscdk-app-ts"],

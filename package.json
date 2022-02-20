@@ -61,7 +61,7 @@
   "dependencies": {
     "@pepperize/cdk-organizations": "^0.0.106",
     "@seeebiii/ses-verify-identities": "^4.0.0",
-    "aws-bootstrap-kit": "file:.yalc/aws-bootstrap-kit",
+    "aws-bootstrap-kit": "^0.6.0",
     "aws-cdk-lib": "^2.1.0",
     "constructs": "^10.0.5"
   },

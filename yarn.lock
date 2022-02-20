@@ -1194,8 +1194,10 @@ at-least-node@^1.0.0:
   resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
-"aws-bootstrap-kit@file:.yalc/aws-bootstrap-kit":
-  version "0.4.0"
+aws-bootstrap-kit@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/aws-bootstrap-kit/-/aws-bootstrap-kit-0.6.0.tgz#5535a27453c64f5a4c3e1619019df1b6f1e39dfa"
+  integrity sha512-0G93VpV5/OAS/lTqOoTfzHSZj9MW3SET8IilnZaR92xPvtKgb11ALYAoMUt1CQhjO+33j4GTrO+vMGONQDFhXA==
   dependencies:
     aws-cdk-lib "2.1.0"
     constructs "10.0.12"

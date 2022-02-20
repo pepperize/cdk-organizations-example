@@ -111,7 +111,6 @@
     },
     {
       "name": "aws-bootstrap-kit",
-      "version": "file:.yalc/aws-bootstrap-kit",
       "type": "runtime"
     },
     {
