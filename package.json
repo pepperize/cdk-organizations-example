@@ -87,12 +87,10 @@
     ],
     "coverageDirectory": "coverage",
     "coveragePathIgnorePatterns": [
-      "/node_modules/",
-      ".yalc/"
+      "/node_modules/"
     ],
     "testPathIgnorePatterns": [
-      "/node_modules/",
-      ".yalc/"
+      "/node_modules/"
     ],
     "watchPathIgnorePatterns": [
       "/node_modules/"
