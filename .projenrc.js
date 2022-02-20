@@ -18,9 +18,4 @@ const project = new AwsCdkTypeScriptApp({
   requireApproval: awscdk.ApprovalLevel.NEVER,
 });
 
-project.gitignore.include(".yalc/");
-project.gitignore.include("yalc.lock");
-project.eslint.addIgnorePattern(".yalc/");
-project.jest.addIgnorePattern(".yalc/");
-
 project.synth();
