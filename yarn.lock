@@ -1596,9 +1596,9 @@ constructs@10.0.12:
   integrity sha512-wVQcQgwwK7b//7yI54/3hundmXAw7RBpuy5f6yIBFNceJr8feTK6Cs2I2f3+gp3/ikszzTouLup9AzxioEEXPQ==
 
 constructs@^10.0.5:
-  version "10.1.7"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.7.tgz#d96fbeedb8d091720f4d3347c955bd42593abaa2"
-  integrity sha512-U4zMM7Iqa81hzLSfof9IW9R7kUWSMdhzV2JS8lXGISRFXljZrd4qwzYxhSO/VMB+CS24Tt0/YYLyNxET+6/3Mg==
+  version "10.1.8"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.8.tgz#4c8ac85a6e669d22aeabb14de41d352075829301"
+  integrity sha512-iLHvRQEDfi+F6sTuzjEMylk3AqkaTfeGBzmGZZosE0lagtkUeygZTkQCn4FOS69Cr5RIvWBjg9EPFt74QVjcEQ==
 
 conventional-changelog-angular@^5.0.12:
   version "5.0.13"
@@ -4362,9 +4362,9 @@ npm-bundled@^1.1.1, npm-bundled@^1.1.2:
     npm-normalize-package-bin "^1.0.1"
 
 npm-check-updates@^12:
-  version "12.5.11"
-  resolved "https://registry.yarnpkg.com/npm-check-updates/-/npm-check-updates-12.5.11.tgz#c594902b21af8c251a5ebf12686143b0d2f06356"
-  integrity sha512-uS3yYYK/F1VvZlJRymuCkq+MY2R7v/WlORo5WPUTYx+1OwkqeDMC/CEEGfCN7ATwT2M+JxVVKk9Gq/TGiZjJOw==
+  version "12.5.12"
+  resolved "https://registry.yarnpkg.com/npm-check-updates/-/npm-check-updates-12.5.12.tgz#fdcf746b352236dcf3d0885d4462af3abd6da9eb"
+  integrity sha512-JAFs+kKokZmYPRzhSHgIpKashX6vSGGXYo0VJXNaKV/nLnq3ZKI0nTVou9OwTix+PFfLAWTEJ6T/byGxkDlhWA==
   dependencies:
     chalk "^4.1.2"
     cint "^8.2.1"
