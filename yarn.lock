@@ -648,10 +648,10 @@
   resolved "https://registry.yarnpkg.com/@oozcitak/util/-/util-8.3.8.tgz#10f65fe1891fd8cde4957360835e78fd1936bfdd"
   integrity sha512-T8TbSnGsxo6TDBJx/Sgv/BlVJL3tshxZP7Aq5R1mSnM5OcHY2dQaxLMu2+E8u3gN0MLOzdjurqN4ZRVuzQycOQ==
 
-"@pepperize/cdk-organizations@^0.3.1":
-  version "0.3.23"
-  resolved "https://registry.yarnpkg.com/@pepperize/cdk-organizations/-/cdk-organizations-0.3.23.tgz#5f74dfb20c3f1aeff5455d8a5b8bc7a639e3e232"
-  integrity sha512-K2qLi0oE+bFTaMLprgTllUaa6axYWpCiw+G4AaPBWT9CxfGn+uyDMUnQO3EwGBguQ8RuqaQbUDSdMmkYkqAXbg==
+"@pepperize/cdk-organizations@^0.4.49":
+  version "0.4.49"
+  resolved "https://registry.yarnpkg.com/@pepperize/cdk-organizations/-/cdk-organizations-0.4.49.tgz#c50c9aac91c2265f0a4253de59b0e63c769cd7f0"
+  integrity sha512-xat0qX+H9CID4bpXyRcRDTS7d6eNSr9sHeP0TjK7ZbUh8cr6nKzDHmNttjEJHnS1TWoCqfIAhXHXX9gtQmV4Lw==
   dependencies:
     pascal-case "^3.1.2"
 
