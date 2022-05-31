@@ -661,9 +661,9 @@
   integrity sha512-27wnpJiOpomGPOI5n3nC89DTKEKWqxNk+KAf7pDRyUykDitL7lTleq+Ejt9tYuueWnh6izEPAZbPNcQj3nIMNA==
 
 "@seeebiii/ses-verify-identities@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@seeebiii/ses-verify-identities/-/ses-verify-identities-4.0.0.tgz#3417cea055d0aa0823396d75f25674daa546e21a"
-  integrity sha512-WHwSDGpbA7MCjbxX9fv9be1tHvakrCZlJN0syzHmitF7fzyRvo4//veGDjIFDOz9vFUVJj9dTmoCcj24TiD6mw==
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@seeebiii/ses-verify-identities/-/ses-verify-identities-4.0.1.tgz#928b868acbfa3a354541845f02048d08d4393df5"
+  integrity sha512-pLr3l8QVTvN4KdwuSoHc6M/LPinSde61LqxP5koZ9aoajC7xuYUd8K/Fd7TNzNIuRivGQIvlq3RjH8Djd/bUTQ==
 
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"
