@@ -10,7 +10,7 @@
     },
     {
       "name": "@types/node",
-      "version": "^12",
+      "version": "^14",
       "type": "build"
     },
     {
@@ -58,21 +58,17 @@
       "type": "build"
     },
     {
-      "name": "jest",
-      "type": "build"
-    },
-    {
       "name": "jest-junit",
       "version": "^13",
       "type": "build"
     },
     {
-      "name": "json-schema",
+      "name": "jest",
+      "version": "^27",
       "type": "build"
     },
     {
-      "name": "npm-check-updates",
-      "version": "^12",
+      "name": "json-schema",
       "type": "build"
     },
     {
@@ -90,11 +86,11 @@
     },
     {
       "name": "ts-jest",
+      "version": "^27",
       "type": "build"
     },
     {
       "name": "ts-node",
-      "version": "^9",
       "type": "build"
     },
     {
