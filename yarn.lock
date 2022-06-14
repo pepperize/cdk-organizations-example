@@ -1058,9 +1058,9 @@ aws-cdk-lib@^2.1.0:
     yaml "1.10.2"
 
 aws-cdk@^2.1.0:
-  version "2.27.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.27.0.tgz#e4830b68b5262f43181607a73e4f870afe28744b"
-  integrity sha512-TAKSP4ViFqj+jktFwJl4IE4jZbQCsH32t7L/VcGY71VZV9VqvuzkjF4gGx+hrES+A/dFBtLmPXsumyJu5y0elQ==
+  version "2.28.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.28.0.tgz#7d9bd7c185620e9e94f6ed52a1c9279e436411c5"
+  integrity sha512-d8DyDBnSSLLU39XPH4I4pRF1dX5yGFYJhOR8fFBtoPbpSiE0gJgSMX4RIcNUm2V1ZKVUM8dSc/iWkf+i7+mysg==
   optionalDependencies:
     fsevents "2.3.2"
 
@@ -1333,9 +1333,9 @@ constructs@10.0.12:
   integrity sha512-wVQcQgwwK7b//7yI54/3hundmXAw7RBpuy5f6yIBFNceJr8feTK6Cs2I2f3+gp3/ikszzTouLup9AzxioEEXPQ==
 
 constructs@^10.0.5:
-  version "10.1.37"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.37.tgz#2200e542d86a40dafb0766b940d9ce1f5cd36e79"
-  integrity sha512-MieKDdWuzBhXCF5u8ors90K/u1HH56VykWRLZnaHFG1pJ05aqpOgXDT7oxhNDu2uvHmQpliCnFL1KAXIRfX+Gg==
+  version "10.1.39"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.39.tgz#29ac8f6d62748f7d7830c32064f2bbb8eabeadaf"
+  integrity sha512-6SiY7h4SyYx1qnOFPb74zkkyVWrmvLRbIe9TmjuZBCqofot039LzdcoVwdbWGm+WFRGitHcAThvHMh+UEz5rhQ==
 
 conventional-changelog-angular@^5.0.12:
   version "5.0.13"
@@ -3892,9 +3892,9 @@ prettier-linter-helpers@^1.0.0:
     fast-diff "^1.1.2"
 
 prettier@^2.5.1:
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.6.2.tgz#e26d71a18a74c3d0f0597f55f01fb6c06c206032"
-  integrity sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.7.0.tgz#a4fdae07e5596c51c9857ea676cd41a0163879d6"
+  integrity sha512-nwoX4GMFgxoPC6diHvSwmK/4yU8FFH3V8XWtLQrbj4IBsK2pkYhG4kf/ljF/haaZ/aii+wNJqISrCDPgxGWDVQ==
 
 pretty-format@^27.0.0, pretty-format@^27.5.1:
   version "27.5.1"
