@@ -590,9 +590,9 @@
   integrity sha512-T8TbSnGsxo6TDBJx/Sgv/BlVJL3tshxZP7Aq5R1mSnM5OcHY2dQaxLMu2+E8u3gN0MLOzdjurqN4ZRVuzQycOQ==
 
 "@pepperize/cdk-organizations@^0.4.49":
-  version "0.4.104"
-  resolved "https://registry.yarnpkg.com/@pepperize/cdk-organizations/-/cdk-organizations-0.4.104.tgz#22dad357b5e10bc2b8463e07770c51b8d9ecd1a5"
-  integrity sha512-ZAhX81yS6YzVqrh/aQEfFy5AWbkIK4BgzXpRQUARCYkVdju7ereso++JZBadrLAP7Ko0UByNGFhdsNrKnlxCQw==
+  version "0.4.109"
+  resolved "https://registry.yarnpkg.com/@pepperize/cdk-organizations/-/cdk-organizations-0.4.109.tgz#d1783fca928d9c837ccb85a30f0279f4ede891e4"
+  integrity sha512-tNJqM2i3waWXTJNDrkvvez6RgI5wTjDIRfPhe52pVFuz1p8K/Blq3ALFOgJpoFISYZ9CsNF1/HtRbPxN495S9A==
   dependencies:
     pascal-case "^3.1.2"
 
