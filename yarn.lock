@@ -1038,9 +1038,9 @@ aws-cdk-lib@2.1.0:
     yaml "1.10.2"
 
 aws-cdk-lib@^2.1.0:
-  version "2.30.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.30.0.tgz#c3f02e15ab3622111b1b53f47fa4b504c8c39a67"
-  integrity sha512-e9KKwRF4vPzPpOXPq8dtzUdn6j2tmTrrSZmQu2tOiZni0eB1vhiOVwaxc/8aEUrz8wUZ8t2gEitYdJmtm/GWhQ==
+  version "2.31.2"
+  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.31.2.tgz#bff2f28270d4c1be3b3cf646ed324927c6df92e8"
+  integrity sha512-IVma4LYr8Kr82d9NJj3qvau7kHGiFYX51+7UH7TbQokkal/EKv15Lt0q+Oo1xHDzSCV0hh8q+5k1gS/uhhTWUg==
   dependencies:
     "@balena/dockerignore" "^1.0.2"
     case "1.6.3"
