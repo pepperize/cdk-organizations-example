@@ -1,5 +1,9 @@
 {
   "name": "@pepperize/cdk-organizations-example",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pepperize/cdk-organizations-example.git"
+  },
   "scripts": {
     "build": "npx projen build",
     "bump": "npx projen bump",
@@ -33,7 +37,7 @@
     "organization": true
   },
   "devDependencies": {
-    "@pepperize/projen-awscdk-app-ts": "^0.0.5",
+    "@pepperize/projen-awscdk-app-ts": "^0.0.176",
     "@types/jest": "^27.4.0",
     "@types/node": "^14",
     "@typescript-eslint/eslint-plugin": "^5",
@@ -50,7 +54,7 @@
     "jest-junit": "^13",
     "json-schema": "^0.4.0",
     "prettier": "^2.5.1",
-    "projen": "^0.57.5",
+    "projen": "^0.60.16",
     "standard-version": "^9",
     "ts-jest": "^27",
     "ts-node": "^10",
@@ -71,7 +75,7 @@
   "jest": {
     "testMatch": [
       "<rootDir>/src/**/__tests__/**/*.ts?(x)",
-      "<rootDir>/(test|src)/**/?(*.)+(spec|test).ts?(x)",
+      "<rootDir>/(test|src)/**/*(*.)@(spec|test).ts?(x)",
       "<rootDir>/**/?(*.)@(spec|test).[tj]s?(x)"
     ],
     "clearMocks": true,
