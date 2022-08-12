@@ -600,9 +600,9 @@
   integrity sha512-T8TbSnGsxo6TDBJx/Sgv/BlVJL3tshxZP7Aq5R1mSnM5OcHY2dQaxLMu2+E8u3gN0MLOzdjurqN4ZRVuzQycOQ==
 
 "@pepperize/cdk-organizations@^0.4.49":
-  version "0.4.204"
-  resolved "https://registry.yarnpkg.com/@pepperize/cdk-organizations/-/cdk-organizations-0.4.204.tgz#e1613e321c39390f0014037b276cde3d0e2168e5"
-  integrity sha512-ltDwizqtNe4fV4EMFPPjzq5+xwZDibvZCcpLLb8A1QZJtQyuqL9jS6hnlWfQFPV/oKxvrd1OclcQJcb332Aj5w==
+  version "0.4.206"
+  resolved "https://registry.yarnpkg.com/@pepperize/cdk-organizations/-/cdk-organizations-0.4.206.tgz#40dd9d3f9d301b087ad8ddcbdd23af12b7c46a1a"
+  integrity sha512-/doJd58EeXYpBIPLiA2KQvuju388EtXiG4S40lnQcTHmoDzPmZspMFU83fkMrrNfw0d6vx+SckB8YQEMKMRUNg==
   dependencies:
     pascal-case "^3.1.2"
 
@@ -612,9 +612,9 @@
   integrity sha512-5hUmZaGlxiZr+ACCOSsrUn+caIVFnKZDCsT+3KxWQg7Ke6nFAKhnZ+YQgeJ5333ZwhbLMlId5Z4XtRe6EN39nQ==
 
 "@seeebiii/ses-verify-identities@^4.0.0":
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/@seeebiii/ses-verify-identities/-/ses-verify-identities-4.0.5.tgz#16a6c34fa3cb55fa7d95eb349689c3e920d49077"
-  integrity sha512-MEH126rdDItRntfJHT+wKYLrmp9EYG2dP5BsMr4AbmjDo0y5JM5R4o9kWCbD7/evrw/LNXlfCzaWbd92wpUr+w==
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@seeebiii/ses-verify-identities/-/ses-verify-identities-4.1.0.tgz#ecc96f5f3e31e343354e046d7a609062dc5bc99b"
+  integrity sha512-7TOoiZ2FbglDiX93NGYmGSd1XDCRqoSHtncpIMwMVnU+za0eDIrO6BdLkFNNFc9wXY52efrGSP+Cr/affgFUZw==
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.3"
