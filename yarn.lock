@@ -1059,9 +1059,9 @@ aws-cdk-lib@2.1.0:
     yaml "1.10.2"
 
 aws-cdk-lib@^2.1.0:
-  version "2.40.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.40.0.tgz#d0a9c92a29caf814d1148db3c6dcb4340f8bc44b"
-  integrity sha512-AHDPU4I+WP3x+8W2TcSNPDhiA1wmvYkhaz5VjsQ9bqrnu2tJhcQaYkJCUu49MOVfUDpWYp9DnZIL0Yirlp5X6w==
+  version "2.41.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.41.0.tgz#5bcff1b075dd8eb3df6346ba11940a1d75d993d5"
+  integrity sha512-wh6lDaarzb8B+43TMxEBg+yHcXU9omlUGJz9zSdgjrmeQWBV8SD0jIvrERhDFvQLmRY4Vzy7FXxkI0mU+adDHQ==
   dependencies:
     "@balena/dockerignore" "^1.0.2"
     case "1.6.3"
@@ -1349,9 +1349,9 @@ constructs@10.0.12:
   integrity sha512-wVQcQgwwK7b//7yI54/3hundmXAw7RBpuy5f6yIBFNceJr8feTK6Cs2I2f3+gp3/ikszzTouLup9AzxioEEXPQ==
 
 constructs@^10.0.5:
-  version "10.1.95"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.95.tgz#9169d4c9d9b6d49d92750c6652c13b58fd29cdd7"
-  integrity sha512-1DQi86eF+FoKLfOnR+lNraxZ9cnTdK5EfnbHiR3Nto8kcOdIeaL4TdSJXKhnjs5g562mGUp6FLPBJH27/DNmJw==
+  version "10.1.96"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.96.tgz#c52cae505773f528f8ed356a739e60b240c4682e"
+  integrity sha512-i0wEjeSAtdLMC57EZIroEU4f2nMqa5oQW+pZe2yHqFZuVOEV7AXFy5+axguCI4vb/uD7XmjPArx10jA0AF84Ng==
 
 conventional-changelog-angular@^5.0.12:
   version "5.0.13"
@@ -4660,9 +4660,9 @@ typedarray@^0.0.6:
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
 typescript@^4.5.5:
-  version "4.8.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.8.2.tgz#e3b33d5ccfb5914e4eeab6699cf208adee3fd790"
-  integrity sha512-C0I1UsrrDHo2fYI5oaCGbSejwX4ch+9Y5jTQELvovfmFkK3HHSZJB8MSJcWLmCUBzQBchCrZ9rMRV6GuNrvGtw==
+  version "4.8.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.8.3.tgz#d59344522c4bc464a65a730ac695007fdb66dd88"
+  integrity sha512-goMHfm00nWPa8UvR/CPSvykqf6dVV8x/dp0c5mFTMTIu0u0FlGWRioyy7Nn0PGAdHxpJZnuO/ut+PpQ8UiHAig==
 
 uglify-js@^3.1.4:
   version "3.15.4"
