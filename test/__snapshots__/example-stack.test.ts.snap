@@ -202,6 +202,10 @@ Object {
     },
     "ExampleCreateAccount88E1A10C": Object {
       "DeletionPolicy": "Delete",
+      "DependsOn": Array [
+        "ExampleOUOrganizationProvider6AC389E4",
+        "ExampleOUTagsTagResource1D07DD22",
+      ],
       "Properties": Object {
         "AccountName": "example",
         "Email": "your_email+example@gmail.com",
@@ -228,6 +232,8 @@ Object {
     "ExampleOUOrganizationProvider6AC389E4": Object {
       "DeletionPolicy": "Delete",
       "DependsOn": Array [
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC87EE874",
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResource1EB0D486",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
         "OrganizationRootTagsTagResourceCBEA7B2F",
@@ -256,6 +262,8 @@ Object {
       "DeletionPolicy": "Delete",
       "DependsOn": Array [
         "ExampleOUOrganizationProvider6AC389E4",
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC87EE874",
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResource1EB0D486",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
         "OrganizationRootTagsTagResourceCBEA7B2F",
@@ -287,6 +295,8 @@ Object {
       "DeletionPolicy": "Delete",
       "DependsOn": Array [
         "ExampleCreateAccount88E1A10C",
+        "ExampleOUOrganizationProvider6AC389E4",
+        "ExampleOUTagsTagResource1D07DD22",
       ],
       "Properties": Object {
         "ResourceId": Object {
@@ -329,6 +339,8 @@ Object {
       "DeletionPolicy": "Delete",
       "DependsOn": Array [
         "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC87EE874",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC8763B19",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceDCB6F18A",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
       ],
@@ -351,7 +363,7 @@ Object {
                   "Roots.0.Id",
                 ],
               },
-              "\\",\\"PolicyType\\":\\"AISERVICES_OPT_OUT_POLICY\\"}}",
+              "\\",\\"PolicyType\\":\\"AISERVICES_OPT_OUT_POLICY\\"},\\"ignoreErrorCodesMatching\\":\\"PolicyTypeAlreadyEnabledException\\"}",
             ],
           ],
         },
@@ -383,6 +395,8 @@ Object {
     },
     "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC87EE874": Object {
       "DependsOn": Array [
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC8763B19",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceDCB6F18A",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
       ],
@@ -415,6 +429,8 @@ Object {
       "DeletionPolicy": "Delete",
       "DependsOn": Array [
         "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyCDDB11A0",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResourceCustomResourcePolicy0EC006E9",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResource79180BC7",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
       ],
@@ -437,7 +453,7 @@ Object {
                   "Roots.0.Id",
                 ],
               },
-              "\\",\\"PolicyType\\":\\"BACKUP_POLICY\\"}}",
+              "\\",\\"PolicyType\\":\\"BACKUP_POLICY\\"},\\"ignoreErrorCodesMatching\\":\\"PolicyTypeAlreadyEnabledException\\"}",
             ],
           ],
         },
@@ -469,6 +485,8 @@ Object {
     },
     "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyCDDB11A0": Object {
       "DependsOn": Array [
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResourceCustomResourcePolicy0EC006E9",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResource79180BC7",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
       ],
@@ -501,6 +519,8 @@ Object {
       "DeletionPolicy": "Delete",
       "DependsOn": Array [
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy2A524CEE",
+        "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy8BE3ED27",
+        "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResource4E491170",
         "Organization06E16095",
       ],
       "Properties": Object {
@@ -519,6 +539,8 @@ Object {
     },
     "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy2A524CEE": Object {
       "DependsOn": Array [
+        "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy8BE3ED27",
+        "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResource4E491170",
         "Organization06E16095",
       ],
       "Properties": Object {
@@ -549,6 +571,8 @@ Object {
     "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResource79180BC7": Object {
       "DeletionPolicy": "Delete",
       "DependsOn": Array [
+        "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy2A524CEE",
+        "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResource3A59621B",
         "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResourceCustomResourcePolicy0EC006E9",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
@@ -572,7 +596,7 @@ Object {
                   "Roots.0.Id",
                 ],
               },
-              "\\",\\"PolicyType\\":\\"SERVICE_CONTROL_POLICY\\"}}",
+              "\\",\\"PolicyType\\":\\"SERVICE_CONTROL_POLICY\\"},\\"ignoreErrorCodesMatching\\":\\"PolicyTypeAlreadyEnabledException\\"}",
             ],
           ],
         },
@@ -604,6 +628,8 @@ Object {
     },
     "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResourceCustomResourcePolicy0EC006E9": Object {
       "DependsOn": Array [
+        "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy2A524CEE",
+        "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResource3A59621B",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
       ],
@@ -683,6 +709,8 @@ Object {
     },
     "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC8763B19": Object {
       "DependsOn": Array [
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyCDDB11A0",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResource7553BF5D",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
       ],
@@ -714,6 +742,8 @@ Object {
     "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceDCB6F18A": Object {
       "DeletionPolicy": "Delete",
       "DependsOn": Array [
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyCDDB11A0",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResource7553BF5D",
         "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC8763B19",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
@@ -737,7 +767,7 @@ Object {
                   "Roots.0.Id",
                 ],
               },
-              "\\",\\"PolicyType\\":\\"TAG_POLICY\\"}}",
+              "\\",\\"PolicyType\\":\\"TAG_POLICY\\"},\\"ignoreErrorCodesMatching\\":\\"PolicyTypeAlreadyEnabledException\\"}",
             ],
           ],
         },

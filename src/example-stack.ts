@@ -1,8 +1,8 @@
-import { Account, Organization, OrganizationalUnit, PolicyType } from "@pepperize/cdk-organizations";
+import { Account, DependencyChain, Organization, OrganizationalUnit, PolicyType } from "@pepperize/cdk-organizations";
 import { VerifySesEmailAddress } from "@seeebiii/ses-verify-identities";
 import { SecureRootUser } from "aws-bootstrap-kit";
 import { OrganizationTrail } from "aws-bootstrap-kit/lib/organization-trail";
-import { Annotations, Stack, StackProps, Tags } from "aws-cdk-lib";
+import { Annotations, Aspects, Stack, StackProps, Tags } from "aws-cdk-lib";
 import { Construct } from "constructs";
 
 export interface OrganizationStackProps extends StackProps {
@@ -69,5 +69,8 @@ export class ExampleStack extends Stack {
 
     // Adding tags
     Tags.of(this).add("ExampleTagKey", "ExampleTagValue", {});
+
+    // Sequentially deploy organization resources
+    Aspects.of(this).add(new DependencyChain());
   }
 }
