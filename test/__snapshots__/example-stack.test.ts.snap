@@ -325,6 +325,178 @@ Object {
       "Type": "Custom::Organizations_Organization",
       "UpdateReplacePolicy": "Delete",
     },
+    "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResource1EB0D486": Object {
+      "DeletionPolicy": "Delete",
+      "DependsOn": Array [
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC87EE874",
+        "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
+        "OrganizationRootRootCustomResourceBB74F060",
+      ],
+      "Properties": Object {
+        "Create": Object {
+          "Fn::Join": Array [
+            "",
+            Array [
+              "{\\"service\\":\\"Organizations\\",\\"action\\":\\"enablePolicyType\\",\\"region\\":\\"us-east-1\\",\\"physicalResourceId\\":{\\"id\\":\\"",
+              Object {
+                "Fn::GetAtt": Array [
+                  "OrganizationRootRootCustomResourceBB74F060",
+                  "Roots.0.Id",
+                ],
+              },
+              ":AISERVICES_OPT_OUT_POLICY\\"},\\"parameters\\":{\\"RootId\\":\\"",
+              Object {
+                "Fn::GetAtt": Array [
+                  "OrganizationRootRootCustomResourceBB74F060",
+                  "Roots.0.Id",
+                ],
+              },
+              "\\",\\"PolicyType\\":\\"AISERVICES_OPT_OUT_POLICY\\"}}",
+            ],
+          ],
+        },
+        "Delete": Object {
+          "Fn::Join": Array [
+            "",
+            Array [
+              "{\\"service\\":\\"Organizations\\",\\"action\\":\\"disablePolicyType\\",\\"region\\":\\"us-east-1\\",\\"parameters\\":{\\"RootId\\":\\"",
+              Object {
+                "Fn::GetAtt": Array [
+                  "OrganizationRootRootCustomResourceBB74F060",
+                  "Roots.0.Id",
+                ],
+              },
+              "\\",\\"PolicyType\\":\\"AISERVICES_OPT_OUT_POLICY\\"}}",
+            ],
+          ],
+        },
+        "InstallLatestAwsSdk": false,
+        "ServiceToken": Object {
+          "Fn::GetAtt": Array [
+            "AWS679f53fac002430cb0da5b7982bd22872D164C4C",
+            "Arn",
+          ],
+        },
+      },
+      "Type": "Custom::Organizations_EnablePolicyType",
+      "UpdateReplacePolicy": "Delete",
+    },
+    "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC87EE874": Object {
+      "DependsOn": Array [
+        "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
+        "OrganizationRootRootCustomResourceBB74F060",
+      ],
+      "Properties": Object {
+        "PolicyDocument": Object {
+          "Statement": Array [
+            Object {
+              "Action": "organizations:EnablePolicyType",
+              "Effect": "Allow",
+              "Resource": "*",
+            },
+            Object {
+              "Action": "organizations:DisablePolicyType",
+              "Effect": "Allow",
+              "Resource": "*",
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC87EE874",
+        "Roles": Array [
+          Object {
+            "Ref": "AWS679f53fac002430cb0da5b7982bd2287ServiceRoleC1EA0FF2",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResource7553BF5D": Object {
+      "DeletionPolicy": "Delete",
+      "DependsOn": Array [
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyCDDB11A0",
+        "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
+        "OrganizationRootRootCustomResourceBB74F060",
+      ],
+      "Properties": Object {
+        "Create": Object {
+          "Fn::Join": Array [
+            "",
+            Array [
+              "{\\"service\\":\\"Organizations\\",\\"action\\":\\"enablePolicyType\\",\\"region\\":\\"us-east-1\\",\\"physicalResourceId\\":{\\"id\\":\\"",
+              Object {
+                "Fn::GetAtt": Array [
+                  "OrganizationRootRootCustomResourceBB74F060",
+                  "Roots.0.Id",
+                ],
+              },
+              ":BACKUP_POLICY\\"},\\"parameters\\":{\\"RootId\\":\\"",
+              Object {
+                "Fn::GetAtt": Array [
+                  "OrganizationRootRootCustomResourceBB74F060",
+                  "Roots.0.Id",
+                ],
+              },
+              "\\",\\"PolicyType\\":\\"BACKUP_POLICY\\"}}",
+            ],
+          ],
+        },
+        "Delete": Object {
+          "Fn::Join": Array [
+            "",
+            Array [
+              "{\\"service\\":\\"Organizations\\",\\"action\\":\\"disablePolicyType\\",\\"region\\":\\"us-east-1\\",\\"parameters\\":{\\"RootId\\":\\"",
+              Object {
+                "Fn::GetAtt": Array [
+                  "OrganizationRootRootCustomResourceBB74F060",
+                  "Roots.0.Id",
+                ],
+              },
+              "\\",\\"PolicyType\\":\\"BACKUP_POLICY\\"}}",
+            ],
+          ],
+        },
+        "InstallLatestAwsSdk": false,
+        "ServiceToken": Object {
+          "Fn::GetAtt": Array [
+            "AWS679f53fac002430cb0da5b7982bd22872D164C4C",
+            "Arn",
+          ],
+        },
+      },
+      "Type": "Custom::Organizations_EnablePolicyType",
+      "UpdateReplacePolicy": "Delete",
+    },
+    "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyCDDB11A0": Object {
+      "DependsOn": Array [
+        "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
+        "OrganizationRootRootCustomResourceBB74F060",
+      ],
+      "Properties": Object {
+        "PolicyDocument": Object {
+          "Statement": Array [
+            Object {
+              "Action": "organizations:EnablePolicyType",
+              "Effect": "Allow",
+              "Resource": "*",
+            },
+            Object {
+              "Action": "organizations:DisablePolicyType",
+              "Effect": "Allow",
+              "Resource": "*",
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyCDDB11A0",
+        "Roles": Array [
+          Object {
+            "Ref": "AWS679f53fac002430cb0da5b7982bd2287ServiceRoleC1EA0FF2",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
     "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResource3A59621B": Object {
       "DeletionPolicy": "Delete",
       "DependsOn": Array [
@@ -366,6 +538,92 @@ Object {
           "Version": "2012-10-17",
         },
         "PolicyName": "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy2A524CEE",
+        "Roles": Array [
+          Object {
+            "Ref": "AWS679f53fac002430cb0da5b7982bd2287ServiceRoleC1EA0FF2",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResource79180BC7": Object {
+      "DeletionPolicy": "Delete",
+      "DependsOn": Array [
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResourceCustomResourcePolicy0EC006E9",
+        "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
+        "OrganizationRootRootCustomResourceBB74F060",
+      ],
+      "Properties": Object {
+        "Create": Object {
+          "Fn::Join": Array [
+            "",
+            Array [
+              "{\\"service\\":\\"Organizations\\",\\"action\\":\\"enablePolicyType\\",\\"region\\":\\"us-east-1\\",\\"physicalResourceId\\":{\\"id\\":\\"",
+              Object {
+                "Fn::GetAtt": Array [
+                  "OrganizationRootRootCustomResourceBB74F060",
+                  "Roots.0.Id",
+                ],
+              },
+              ":SERVICE_CONTROL_POLICY\\"},\\"parameters\\":{\\"RootId\\":\\"",
+              Object {
+                "Fn::GetAtt": Array [
+                  "OrganizationRootRootCustomResourceBB74F060",
+                  "Roots.0.Id",
+                ],
+              },
+              "\\",\\"PolicyType\\":\\"SERVICE_CONTROL_POLICY\\"}}",
+            ],
+          ],
+        },
+        "Delete": Object {
+          "Fn::Join": Array [
+            "",
+            Array [
+              "{\\"service\\":\\"Organizations\\",\\"action\\":\\"disablePolicyType\\",\\"region\\":\\"us-east-1\\",\\"parameters\\":{\\"RootId\\":\\"",
+              Object {
+                "Fn::GetAtt": Array [
+                  "OrganizationRootRootCustomResourceBB74F060",
+                  "Roots.0.Id",
+                ],
+              },
+              "\\",\\"PolicyType\\":\\"SERVICE_CONTROL_POLICY\\"}}",
+            ],
+          ],
+        },
+        "InstallLatestAwsSdk": false,
+        "ServiceToken": Object {
+          "Fn::GetAtt": Array [
+            "AWS679f53fac002430cb0da5b7982bd22872D164C4C",
+            "Arn",
+          ],
+        },
+      },
+      "Type": "Custom::Organizations_EnablePolicyType",
+      "UpdateReplacePolicy": "Delete",
+    },
+    "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResourceCustomResourcePolicy0EC006E9": Object {
+      "DependsOn": Array [
+        "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
+        "OrganizationRootRootCustomResourceBB74F060",
+      ],
+      "Properties": Object {
+        "PolicyDocument": Object {
+          "Statement": Array [
+            Object {
+              "Action": "organizations:EnablePolicyType",
+              "Effect": "Allow",
+              "Resource": "*",
+            },
+            Object {
+              "Action": "organizations:DisablePolicyType",
+              "Effect": "Allow",
+              "Resource": "*",
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResourceCustomResourcePolicy0EC006E9",
         "Roles": Array [
           Object {
             "Ref": "AWS679f53fac002430cb0da5b7982bd2287ServiceRoleC1EA0FF2",
@@ -422,6 +680,92 @@ Object {
         ],
       },
       "Type": "AWS::IAM::Policy",
+    },
+    "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC8763B19": Object {
+      "DependsOn": Array [
+        "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
+        "OrganizationRootRootCustomResourceBB74F060",
+      ],
+      "Properties": Object {
+        "PolicyDocument": Object {
+          "Statement": Array [
+            Object {
+              "Action": "organizations:EnablePolicyType",
+              "Effect": "Allow",
+              "Resource": "*",
+            },
+            Object {
+              "Action": "organizations:DisablePolicyType",
+              "Effect": "Allow",
+              "Resource": "*",
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC8763B19",
+        "Roles": Array [
+          Object {
+            "Ref": "AWS679f53fac002430cb0da5b7982bd2287ServiceRoleC1EA0FF2",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceDCB6F18A": Object {
+      "DeletionPolicy": "Delete",
+      "DependsOn": Array [
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC8763B19",
+        "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
+        "OrganizationRootRootCustomResourceBB74F060",
+      ],
+      "Properties": Object {
+        "Create": Object {
+          "Fn::Join": Array [
+            "",
+            Array [
+              "{\\"service\\":\\"Organizations\\",\\"action\\":\\"enablePolicyType\\",\\"region\\":\\"us-east-1\\",\\"physicalResourceId\\":{\\"id\\":\\"",
+              Object {
+                "Fn::GetAtt": Array [
+                  "OrganizationRootRootCustomResourceBB74F060",
+                  "Roots.0.Id",
+                ],
+              },
+              ":TAG_POLICY\\"},\\"parameters\\":{\\"RootId\\":\\"",
+              Object {
+                "Fn::GetAtt": Array [
+                  "OrganizationRootRootCustomResourceBB74F060",
+                  "Roots.0.Id",
+                ],
+              },
+              "\\",\\"PolicyType\\":\\"TAG_POLICY\\"}}",
+            ],
+          ],
+        },
+        "Delete": Object {
+          "Fn::Join": Array [
+            "",
+            Array [
+              "{\\"service\\":\\"Organizations\\",\\"action\\":\\"disablePolicyType\\",\\"region\\":\\"us-east-1\\",\\"parameters\\":{\\"RootId\\":\\"",
+              Object {
+                "Fn::GetAtt": Array [
+                  "OrganizationRootRootCustomResourceBB74F060",
+                  "Roots.0.Id",
+                ],
+              },
+              "\\",\\"PolicyType\\":\\"TAG_POLICY\\"}}",
+            ],
+          ],
+        },
+        "InstallLatestAwsSdk": false,
+        "ServiceToken": Object {
+          "Fn::GetAtt": Array [
+            "AWS679f53fac002430cb0da5b7982bd22872D164C4C",
+            "Arn",
+          ],
+        },
+      },
+      "Type": "Custom::Organizations_EnablePolicyType",
+      "UpdateReplacePolicy": "Delete",
     },
     "OrganizationRootRootCustomResourceBB74F060": Object {
       "DeletionPolicy": "Delete",
@@ -501,10 +845,18 @@ Object {
     "OrganizationTrailEnableAWSServiceAccessA9BA486B": Object {
       "DeletionPolicy": "Delete",
       "DependsOn": Array [
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC87EE874",
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResource1EB0D486",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyCDDB11A0",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResource7553BF5D",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy2A524CEE",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResource3A59621B",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResourceCustomResourcePolicy0EC006E9",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResource79180BC7",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy8BE3ED27",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResource4E491170",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC8763B19",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceDCB6F18A",
         "Organization06E16095",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
@@ -527,10 +879,18 @@ Object {
     },
     "OrganizationTrailEnableAWSServiceAccessCustomResourcePolicy11A32EEC": Object {
       "DependsOn": Array [
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC87EE874",
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResource1EB0D486",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyCDDB11A0",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResource7553BF5D",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy2A524CEE",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResource3A59621B",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResourceCustomResourcePolicy0EC006E9",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResource79180BC7",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy8BE3ED27",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResource4E491170",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC8763B19",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceDCB6F18A",
         "Organization06E16095",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
@@ -564,10 +924,18 @@ Object {
     "OrganizationTrailOrganizationTrailBucket31446F20": Object {
       "DeletionPolicy": "Retain",
       "DependsOn": Array [
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC87EE874",
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResource1EB0D486",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyCDDB11A0",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResource7553BF5D",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy2A524CEE",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResource3A59621B",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResourceCustomResourcePolicy0EC006E9",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResource79180BC7",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy8BE3ED27",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResource4E491170",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC8763B19",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceDCB6F18A",
         "Organization06E16095",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
@@ -592,10 +960,18 @@ Object {
     },
     "OrganizationTrailOrganizationTrailBucketPolicy427FC147": Object {
       "DependsOn": Array [
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC87EE874",
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResource1EB0D486",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyCDDB11A0",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResource7553BF5D",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy2A524CEE",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResource3A59621B",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResourceCustomResourcePolicy0EC006E9",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResource79180BC7",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy8BE3ED27",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResource4E491170",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC8763B19",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceDCB6F18A",
         "Organization06E16095",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
@@ -692,10 +1068,18 @@ Object {
     "OrganizationTrailOrganizationTrailCreate61482CB5": Object {
       "DeletionPolicy": "Delete",
       "DependsOn": Array [
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC87EE874",
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResource1EB0D486",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyCDDB11A0",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResource7553BF5D",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy2A524CEE",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResource3A59621B",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResourceCustomResourcePolicy0EC006E9",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResource79180BC7",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy8BE3ED27",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResource4E491170",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC8763B19",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceDCB6F18A",
         "Organization06E16095",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
@@ -732,10 +1116,18 @@ Object {
     },
     "OrganizationTrailOrganizationTrailCreateCustomResourcePolicyA8E212DA": Object {
       "DependsOn": Array [
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC87EE874",
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResource1EB0D486",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyCDDB11A0",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResource7553BF5D",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy2A524CEE",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResource3A59621B",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResourceCustomResourcePolicy0EC006E9",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResource79180BC7",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy8BE3ED27",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResource4E491170",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC8763B19",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceDCB6F18A",
         "Organization06E16095",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
@@ -771,10 +1163,18 @@ Object {
     },
     "OrganizationTrailOrganizationTrailStartLoggingCustomResourcePolicyF222534F": Object {
       "DependsOn": Array [
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC87EE874",
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResource1EB0D486",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyCDDB11A0",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResource7553BF5D",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy2A524CEE",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResource3A59621B",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResourceCustomResourcePolicy0EC006E9",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResource79180BC7",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy8BE3ED27",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResource4E491170",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC8763B19",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceDCB6F18A",
         "Organization06E16095",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
@@ -810,10 +1210,18 @@ Object {
     "OrganizationTrailOrganizationTrailStartLoggingFE28E066": Object {
       "DeletionPolicy": "Delete",
       "DependsOn": Array [
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC87EE874",
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResource1EB0D486",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyCDDB11A0",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResource7553BF5D",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy2A524CEE",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResource3A59621B",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResourceCustomResourcePolicy0EC006E9",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResource79180BC7",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy8BE3ED27",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResource4E491170",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC8763B19",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceDCB6F18A",
         "Organization06E16095",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
@@ -838,10 +1246,18 @@ Object {
     },
     "SecureRootUserAutoRemediationRole8231D63D": Object {
       "DependsOn": Array [
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC87EE874",
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResource1EB0D486",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyCDDB11A0",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResource7553BF5D",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy2A524CEE",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResource3A59621B",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResourceCustomResourcePolicy0EC006E9",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResource79180BC7",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy8BE3ED27",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResource4E491170",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC8763B19",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceDCB6F18A",
         "Organization06E16095",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
@@ -889,10 +1305,18 @@ Object {
     },
     "SecureRootUserAutoRemediationRoleDefaultPolicy9B4F3A54": Object {
       "DependsOn": Array [
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC87EE874",
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResource1EB0D486",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyCDDB11A0",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResource7553BF5D",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy2A524CEE",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResource3A59621B",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResourceCustomResourcePolicy0EC006E9",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResource79180BC7",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy8BE3ED27",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResource4E491170",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC8763B19",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceDCB6F18A",
         "Organization06E16095",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
@@ -923,10 +1347,18 @@ Object {
     "SecureRootUserConfigRecorderConfigBucket9450FE1B": Object {
       "DeletionPolicy": "Retain",
       "DependsOn": Array [
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC87EE874",
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResource1EB0D486",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyCDDB11A0",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResource7553BF5D",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy2A524CEE",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResource3A59621B",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResourceCustomResourcePolicy0EC006E9",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResource79180BC7",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy8BE3ED27",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResource4E491170",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC8763B19",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceDCB6F18A",
         "Organization06E16095",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
@@ -951,10 +1383,18 @@ Object {
     },
     "SecureRootUserConfigRecorderConfigBucketPolicy4A222F22": Object {
       "DependsOn": Array [
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC87EE874",
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResource1EB0D486",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyCDDB11A0",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResource7553BF5D",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy2A524CEE",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResource3A59621B",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResourceCustomResourcePolicy0EC006E9",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResource79180BC7",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy8BE3ED27",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResource4E491170",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC8763B19",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceDCB6F18A",
         "Organization06E16095",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
@@ -1047,10 +1487,18 @@ Object {
     },
     "SecureRootUserConfigRecorderConfigDeliveryChannel204FF67E": Object {
       "DependsOn": Array [
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC87EE874",
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResource1EB0D486",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyCDDB11A0",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResource7553BF5D",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy2A524CEE",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResource3A59621B",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResourceCustomResourcePolicy0EC006E9",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResource79180BC7",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy8BE3ED27",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResource4E491170",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC8763B19",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceDCB6F18A",
         "Organization06E16095",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
@@ -1066,10 +1514,18 @@ Object {
     },
     "SecureRootUserConfigRecorderConfigRecorderRoleC8136BC5": Object {
       "DependsOn": Array [
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC87EE874",
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResource1EB0D486",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyCDDB11A0",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResource7553BF5D",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy2A524CEE",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResource3A59621B",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResourceCustomResourcePolicy0EC006E9",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResource79180BC7",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy8BE3ED27",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResource4E491170",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC8763B19",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceDCB6F18A",
         "Organization06E16095",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
@@ -1113,10 +1569,18 @@ Object {
     },
     "SecureRootUserConfigRecorderD4344F7C": Object {
       "DependsOn": Array [
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC87EE874",
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResource1EB0D486",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyCDDB11A0",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResource7553BF5D",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy2A524CEE",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResource3A59621B",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResourceCustomResourcePolicy0EC006E9",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResource79180BC7",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy8BE3ED27",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResource4E491170",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC8763B19",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceDCB6F18A",
         "Organization06E16095",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
@@ -1140,10 +1604,18 @@ Object {
     },
     "SecureRootUserEnableRootMfa127161FE": Object {
       "DependsOn": Array [
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC87EE874",
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResource1EB0D486",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyCDDB11A0",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResource7553BF5D",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy2A524CEE",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResource3A59621B",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResourceCustomResourcePolicy0EC006E9",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResource79180BC7",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy8BE3ED27",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResource4E491170",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC8763B19",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceDCB6F18A",
         "Organization06E16095",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
@@ -1165,10 +1637,18 @@ Object {
     },
     "SecureRootUserNoRootAccessKey358044E9": Object {
       "DependsOn": Array [
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC87EE874",
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResource1EB0D486",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyCDDB11A0",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResource7553BF5D",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy2A524CEE",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResource3A59621B",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResourceCustomResourcePolicy0EC006E9",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResource79180BC7",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy8BE3ED27",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResource4E491170",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC8763B19",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceDCB6F18A",
         "Organization06E16095",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
@@ -1190,10 +1670,18 @@ Object {
     },
     "SecureRootUserNotificationEnableRootMfaBF6FD805": Object {
       "DependsOn": Array [
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC87EE874",
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResource1EB0D486",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyCDDB11A0",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResource7553BF5D",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy2A524CEE",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResource3A59621B",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResourceCustomResourcePolicy0EC006E9",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResource79180BC7",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy8BE3ED27",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResource4E491170",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC8763B19",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceDCB6F18A",
         "Organization06E16095",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
@@ -1258,10 +1746,18 @@ Object {
     },
     "SecureRootUserNotificationNoRootAccessKey5717E453": Object {
       "DependsOn": Array [
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC87EE874",
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResource1EB0D486",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyCDDB11A0",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResource7553BF5D",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy2A524CEE",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResource3A59621B",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResourceCustomResourcePolicy0EC006E9",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResource79180BC7",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy8BE3ED27",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResource4E491170",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC8763B19",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceDCB6F18A",
         "Organization06E16095",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
@@ -1326,10 +1822,18 @@ Object {
     },
     "SecureRootUserSecureRootUserConfigTopic9EA61153": Object {
       "DependsOn": Array [
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC87EE874",
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResource1EB0D486",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyCDDB11A0",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResource7553BF5D",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy2A524CEE",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResource3A59621B",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResourceCustomResourcePolicy0EC006E9",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResource79180BC7",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy8BE3ED27",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResource4E491170",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC8763B19",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceDCB6F18A",
         "Organization06E16095",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
@@ -1347,10 +1851,18 @@ Object {
     },
     "SecureRootUserSecureRootUserConfigTopicyouremailgmailcom00428BD1": Object {
       "DependsOn": Array [
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC87EE874",
+        "OrganizationEnableAiservicesOptOutPolicyEnablePolicyTypeCustomResource1EB0D486",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyCDDB11A0",
+        "OrganizationEnableBackupPolicyEnablePolicyTypeCustomResource7553BF5D",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy2A524CEE",
         "OrganizationEnableConfigMultiaccountsetupAmazonawsComEnableAwsServiceAccessCustomResource3A59621B",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResourceCustomResourcePolicy0EC006E9",
+        "OrganizationEnableServiceControlPolicyEnablePolicyTypeCustomResource79180BC7",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResourceCustomResourcePolicy8BE3ED27",
         "OrganizationEnableSsmAmazonawsComEnableAwsServiceAccessCustomResource4E491170",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceCustomResourcePolicyC8763B19",
+        "OrganizationEnableTagPolicyEnablePolicyTypeCustomResourceDCB6F18A",
         "Organization06E16095",
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
         "OrganizationRootRootCustomResourceBB74F060",
