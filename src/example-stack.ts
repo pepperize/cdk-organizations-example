@@ -1,4 +1,4 @@
-import { Account, Organization, OrganizationalUnit } from "@pepperize/cdk-organizations";
+import { Account, Organization, OrganizationalUnit, PolicyType } from "@pepperize/cdk-organizations";
 import { VerifySesEmailAddress } from "@seeebiii/ses-verify-identities";
 import { SecureRootUser } from "aws-bootstrap-kit";
 import { OrganizationTrail } from "aws-bootstrap-kit/lib/organization-trail";
@@ -28,6 +28,12 @@ export class ExampleStack extends Stack {
     // Enabling SSM AWS Service access to be able to register delegated adminstrator
     organization.enableAwsServiceAccess("ssm.amazonaws.com");
     organization.enableAwsServiceAccess("config-multiaccountsetup.amazonaws.com");
+
+    // Enabling service control policies in the organization
+    organization.enablePolicyType(PolicyType.SERVICE_CONTROL_POLICY);
+    organization.enablePolicyType(PolicyType.BACKUP_POLICY);
+    organization.enablePolicyType(PolicyType.TAG_POLICY);
+    organization.enablePolicyType(PolicyType.AISERVICES_OPT_OUT_POLICY);
 
     // Create an organizational unit (OU)
     const organizationalUnit = new OrganizationalUnit(this, "ExampleOU", {
