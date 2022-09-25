@@ -604,10 +604,10 @@
   resolved "https://registry.yarnpkg.com/@oozcitak/util/-/util-8.3.8.tgz#10f65fe1891fd8cde4957360835e78fd1936bfdd"
   integrity sha512-T8TbSnGsxo6TDBJx/Sgv/BlVJL3tshxZP7Aq5R1mSnM5OcHY2dQaxLMu2+E8u3gN0MLOzdjurqN4ZRVuzQycOQ==
 
-"@pepperize/cdk-organizations@^0.4.49":
-  version "0.4.207"
-  resolved "https://registry.yarnpkg.com/@pepperize/cdk-organizations/-/cdk-organizations-0.4.207.tgz#af7adcb00ee3421ec9da7792ce64a787cb83fb24"
-  integrity sha512-Sx/wlQWZr+tyBK6rEDicXRl9N5/UJa2kemm9r8se1W+aMRLNDEde35KoRnesuOABLv43uyC9s2mN8mabTugiBQ==
+"@pepperize/cdk-organizations@^0.6.28":
+  version "0.6.28"
+  resolved "https://registry.yarnpkg.com/@pepperize/cdk-organizations/-/cdk-organizations-0.6.28.tgz#aa785e58c8bad5a69e286bf6975dc7eecd4b15e8"
+  integrity sha512-c7Eyvx8W3zY4Kg/4w/q1MwxL0maky/bdiWDrcNE6RBoFY+0hALewwOz4+H+g6nRL/OU4r+QtDxMFMv0xMPRglw==
   dependencies:
     pascal-case "^3.1.2"
 
@@ -4591,9 +4591,9 @@ tslib@^1.8.1:
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
 tslib@^2.0.3:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
-  integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
+  integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
 
 tsutils@^3.21.0:
   version "3.21.0"
