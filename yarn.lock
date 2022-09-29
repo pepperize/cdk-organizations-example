@@ -605,9 +605,9 @@
   integrity sha512-T8TbSnGsxo6TDBJx/Sgv/BlVJL3tshxZP7Aq5R1mSnM5OcHY2dQaxLMu2+E8u3gN0MLOzdjurqN4ZRVuzQycOQ==
 
 "@pepperize/cdk-organizations@^0.6.29":
-  version "0.6.41"
-  resolved "https://registry.yarnpkg.com/@pepperize/cdk-organizations/-/cdk-organizations-0.6.41.tgz#d0e83a6c585de27847285cd03158541da28842f1"
-  integrity sha512-LYvV+LiGmd9HDR/Z35vKPcBQDpKsCLplnQDu9ktzBFes5JAJ140cj2aXAaSqln0BLV5ejVPRL3XZsCix8rJdgw==
+  version "0.6.42"
+  resolved "https://registry.yarnpkg.com/@pepperize/cdk-organizations/-/cdk-organizations-0.6.42.tgz#9ebd55d4251729632e05eca1932a8fef5447d447"
+  integrity sha512-KZtQQtczoKZZDdb+zj2SFq1i3VJqEQDXn94UMoRyePUZAgr8bYJgjRuWB/EQTcf4QcqfH/SyeA/b98vAXKuKPg==
   dependencies:
     pascal-case "^3.1.2"
 
@@ -1058,9 +1058,9 @@ aws-cdk-lib@2.1.0:
     yaml "1.10.2"
 
 aws-cdk-lib@^2.1.0:
-  version "2.43.1"
-  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.43.1.tgz#85dcf1c7ba0764333e658fd89ceeeddbfc2a5679"
-  integrity sha512-Sss4qcGAdTTTLHHG2ytjPqfOJRy3z17BnuEmlk7UukMBl1KRusfSYDvYWeN78+v6gMT+0BVlUaLzggdxgo3V+w==
+  version "2.44.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.44.0.tgz#e6157df7a72b8d1a4528f6fb9f9b0ed7aa404bcc"
+  integrity sha512-h0lCcS3t2TPF5FIpkA7OcE2t4vChtz/FGcZ5jVaORj21quiUz84eOhGk2BeRoKqfSp1Zqu2QxQUk6p6YpAOrRA==
   dependencies:
     "@balena/dockerignore" "^1.0.2"
     case "1.6.3"
