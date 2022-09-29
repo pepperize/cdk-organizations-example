@@ -605,9 +605,9 @@
   integrity sha512-T8TbSnGsxo6TDBJx/Sgv/BlVJL3tshxZP7Aq5R1mSnM5OcHY2dQaxLMu2+E8u3gN0MLOzdjurqN4ZRVuzQycOQ==
 
 "@pepperize/cdk-organizations@^0.6.29":
-  version "0.6.41"
-  resolved "https://registry.yarnpkg.com/@pepperize/cdk-organizations/-/cdk-organizations-0.6.41.tgz#d0e83a6c585de27847285cd03158541da28842f1"
-  integrity sha512-LYvV+LiGmd9HDR/Z35vKPcBQDpKsCLplnQDu9ktzBFes5JAJ140cj2aXAaSqln0BLV5ejVPRL3XZsCix8rJdgw==
+  version "0.6.42"
+  resolved "https://registry.yarnpkg.com/@pepperize/cdk-organizations/-/cdk-organizations-0.6.42.tgz#9ebd55d4251729632e05eca1932a8fef5447d447"
+  integrity sha512-KZtQQtczoKZZDdb+zj2SFq1i3VJqEQDXn94UMoRyePUZAgr8bYJgjRuWB/EQTcf4QcqfH/SyeA/b98vAXKuKPg==
   dependencies:
     pascal-case "^3.1.2"
 
@@ -1348,9 +1348,9 @@ constructs@10.0.12:
   integrity sha512-wVQcQgwwK7b//7yI54/3hundmXAw7RBpuy5f6yIBFNceJr8feTK6Cs2I2f3+gp3/ikszzTouLup9AzxioEEXPQ==
 
 constructs@^10.0.5:
-  version "10.1.115"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.115.tgz#2399afb4cdf280eda7ffd69f913c7e4344129435"
-  integrity sha512-pX3LI9Tf9ltsf0Qm7RCTdht0seLi4mLwjLuQ0znvzk2S88dWIKZdhzjI2zraN2kjY1a3fByYWg4aK8/St3sS+Q==
+  version "10.1.116"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.116.tgz#ad00b81b7fe856ee7da8db6154ced20cfc64ae07"
+  integrity sha512-FFdxdNZo5zP82WX9/aDSd5KerHpTBVTnFd/U5qTiQB4YMpAm7UsYIuf2h0fovRRjHFC6dHX/oCGgF9+WT2RCtg==
 
 conventional-changelog-angular@^5.0.12:
   version "5.0.13"
