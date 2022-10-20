@@ -612,9 +612,9 @@
   integrity sha512-5hUmZaGlxiZr+ACCOSsrUn+caIVFnKZDCsT+3KxWQg7Ke6nFAKhnZ+YQgeJ5333ZwhbLMlId5Z4XtRe6EN39nQ==
 
 "@seeebiii/ses-verify-identities@^4.0.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@seeebiii/ses-verify-identities/-/ses-verify-identities-4.1.0.tgz#ecc96f5f3e31e343354e046d7a609062dc5bc99b"
-  integrity sha512-7TOoiZ2FbglDiX93NGYmGSd1XDCRqoSHtncpIMwMVnU+za0eDIrO6BdLkFNNFc9wXY52efrGSP+Cr/affgFUZw==
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/@seeebiii/ses-verify-identities/-/ses-verify-identities-4.2.2.tgz#8a7197af80b674a60cfd67e4884a77602be54953"
+  integrity sha512-gVq/qbL/jjcsBmJKitSneyIeIJkzKJ+8rDlFqP79+Uq/M+ErcxKu792hjfmCu2ZqWxi+v1cAmXOR3gI+maB25g==
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.3"
