@@ -1143,9 +1143,9 @@ aws-cdk-lib@^2.1.0:
     yaml "1.10.2"
 
 aws-cdk@^2.1.0:
-  version "2.62.1"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.62.1.tgz#c86022124dc5d0583e8305548fb6a65fb085b292"
-  integrity sha512-r1EnkR8nKfNIlW7BC46b+w7EEb9+Jy/Mgf0s62vdbj1BSNgl1ZdfW2mOe1Ra2FjDC5jhFUX8t+t5+E6eA8vdZA==
+  version "2.62.2"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.62.2.tgz#366708c918c13158e2d9e335f6e70c8bb7fb9c08"
+  integrity sha512-fACUQEdc43AfiqKKXUZLuHB2VADLU965hl50Fn6BhMemFmUsc+iS/GFfOwvfCUO3/iaRtsn/gk+dQ3zZ+snKRw==
   optionalDependencies:
     fsevents "2.3.2"
 
@@ -1418,9 +1418,9 @@ constructs@10.0.12:
   integrity sha512-wVQcQgwwK7b//7yI54/3hundmXAw7RBpuy5f6yIBFNceJr8feTK6Cs2I2f3+gp3/ikszzTouLup9AzxioEEXPQ==
 
 constructs@^10.0.5:
-  version "10.1.231"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.231.tgz#0c00b47a068750c2893d3327eb27755700e8401f"
-  integrity sha512-y4R6kU5wZCGKmXXxCw8kuq1O9oO98FvhvNiIXXX/xaGdZlrq1+pvLRX5dcSL47PPmzO7rcKNF8a/esEdjRyomA==
+  version "10.1.232"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.232.tgz#1688d51fda5dc108278901dfded96f395c05e3c4"
+  integrity sha512-rqXywZLOyUoEp3wIlr75SpahUYDrmpOrAf1vUjBi0MLap32oR6zbPfM2Ar9Xu6kgNdZP4BH16+CZVEtJxKE3uw==
 
 conventional-changelog-angular@^5.0.12:
   version "5.0.13"
