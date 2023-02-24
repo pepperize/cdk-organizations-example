@@ -1092,9 +1092,9 @@ aws-cdk-lib@2.1.0:
     yaml "1.10.2"
 
 aws-cdk-lib@^2.1.0:
-  version "2.66.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.66.0.tgz#531c3446e0763588b0b7aafd9c0745e3b91c7456"
-  integrity sha512-Qmw+lB8uFO+wJX8czw05ciUJObB5gJ5euOXYXXC9BuFPMy1WTA+HYqgSRvgv2mIEnjQb1zlG05oNalvH24Ha7Q==
+  version "2.66.1"
+  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.66.1.tgz#f560a8a86f755ce1507f15398e55d6c0218f9c1a"
+  integrity sha512-xMnKXOnsoJLoDyl6L3BUYLPa9bqw8UoBlFGGH4gbzpBPViv9b49xvYuW+BLf7bK7IVgTzYQ+VmZKaFsj+VFouA==
   dependencies:
     "@aws-cdk/asset-awscli-v1" "^2.2.69"
     "@aws-cdk/asset-kubectl-v20" "^2.1.1"
@@ -1110,9 +1110,9 @@ aws-cdk-lib@^2.1.0:
     yaml "1.10.2"
 
 aws-cdk@^2.1.0:
-  version "2.66.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.66.0.tgz#cc84b263b27e29deacbadbe2d6ec310daa831f68"
-  integrity sha512-UQ2NJsL+j1I8N0/rabORBC74Q84vZD+wK5K8tfX7a7hwCqqmon7TJ7c3lUsQgVGpbi66grcrDxmm4dXeB6cb0w==
+  version "2.66.1"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.66.1.tgz#1b70a28e1e50362d53b32ff7bb4f1ff7f49a41c1"
+  integrity sha512-exm97/VOH6yZPN2is3UC0acc6KF56AANvCg2gAEhyu6dPBueKxNCzrvsjNg/vmXrA8HqJ2jYJMg88YRNaUfylA==
   optionalDependencies:
     fsevents "2.3.2"
 
