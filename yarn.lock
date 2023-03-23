@@ -1402,9 +1402,9 @@ constructs@10.0.12:
   integrity sha512-wVQcQgwwK7b//7yI54/3hundmXAw7RBpuy5f6yIBFNceJr8feTK6Cs2I2f3+gp3/ikszzTouLup9AzxioEEXPQ==
 
 constructs@^10.0.5:
-  version "10.1.287"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.287.tgz#da35b8815ff2c5f8f79f7d226393c1f2d3b6e38f"
-  integrity sha512-KJS0uEEHZ7wwGdycERoGmkm1ca7Le2axZIroijCXuLOkiCwnJ4CLKELjREFkGK+Y1BvpMlUkiIE0V8K0AKE+BQ==
+  version "10.1.288"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.288.tgz#ded054f865a4a26b130dbe845a65e04eaaff8f91"
+  integrity sha512-dsCHesQ7O9Z3/k8bkQaFyC3q3Q2v+XguYr8tehIqCRfbRZr5A3cSE6Z9P7pxwvYcc56HiZ8Aw/WMoyMxhJW7mw==
 
 conventional-changelog-angular@^5.0.12:
   version "5.0.13"
