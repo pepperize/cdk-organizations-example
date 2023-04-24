@@ -1452,9 +1452,9 @@ constructs@10.0.12:
   integrity sha512-wVQcQgwwK7b//7yI54/3hundmXAw7RBpuy5f6yIBFNceJr8feTK6Cs2I2f3+gp3/ikszzTouLup9AzxioEEXPQ==
 
 constructs@^10.0.5:
-  version "10.2.2"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.2.2.tgz#ef264bc0d8a3b5fa1b3625c0cc022071bd684662"
-  integrity sha512-1mSuh0pwJUaGEYuxJH+oxtD5n6JlxX5yD3zmaiyZ7Olv0t1hlZCYZ/AAW0wNUbxpp04BakTTMOISo7Rvmdsw4g==
+  version "10.2.5"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.2.5.tgz#2301e6e5311adc3cc93f9a79444d795d1a45cbe9"
+  integrity sha512-LyCWeQwD+kHu2gpoGzpnajdaUrtT5VaoQwxz0nzQb/38CF46X4CUlMYgPIqG3dt3yqMa9/xRU4M6br+7wVabHw==
 
 conventional-changelog-angular@^5.0.12:
   version "5.0.13"
@@ -4122,9 +4122,9 @@ prettier-linter-helpers@^1.0.0:
     fast-diff "^1.1.2"
 
 prettier@^2.5.1:
-  version "2.8.7"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.7.tgz#bb79fc8729308549d28fe3a98fce73d2c0656450"
-  integrity sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==
+  version "2.8.8"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.8.tgz#e8c5d7e98a4305ffe3de2e1fc4aca1a71c28b1da"
+  integrity sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==
 
 pretty-format@^27.0.0, pretty-format@^27.5.1:
   version "27.5.1"
