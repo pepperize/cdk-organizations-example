@@ -2,6 +2,109 @@
 
 exports[`OrganizationStack Should have snapshot 1`] = `
 Object {
+  "Mappings": Object {
+    "DefaultCrNodeVersionMap": Object {
+      "af-south-1": Object {
+        "value": "nodejs16.x",
+      },
+      "ap-east-1": Object {
+        "value": "nodejs16.x",
+      },
+      "ap-northeast-1": Object {
+        "value": "nodejs16.x",
+      },
+      "ap-northeast-2": Object {
+        "value": "nodejs16.x",
+      },
+      "ap-northeast-3": Object {
+        "value": "nodejs16.x",
+      },
+      "ap-south-1": Object {
+        "value": "nodejs16.x",
+      },
+      "ap-south-2": Object {
+        "value": "nodejs16.x",
+      },
+      "ap-southeast-1": Object {
+        "value": "nodejs16.x",
+      },
+      "ap-southeast-2": Object {
+        "value": "nodejs16.x",
+      },
+      "ap-southeast-3": Object {
+        "value": "nodejs16.x",
+      },
+      "ca-central-1": Object {
+        "value": "nodejs16.x",
+      },
+      "cn-north-1": Object {
+        "value": "nodejs16.x",
+      },
+      "cn-northwest-1": Object {
+        "value": "nodejs16.x",
+      },
+      "eu-central-1": Object {
+        "value": "nodejs16.x",
+      },
+      "eu-central-2": Object {
+        "value": "nodejs16.x",
+      },
+      "eu-north-1": Object {
+        "value": "nodejs16.x",
+      },
+      "eu-south-1": Object {
+        "value": "nodejs16.x",
+      },
+      "eu-south-2": Object {
+        "value": "nodejs16.x",
+      },
+      "eu-west-1": Object {
+        "value": "nodejs16.x",
+      },
+      "eu-west-2": Object {
+        "value": "nodejs16.x",
+      },
+      "eu-west-3": Object {
+        "value": "nodejs16.x",
+      },
+      "me-central-1": Object {
+        "value": "nodejs16.x",
+      },
+      "me-south-1": Object {
+        "value": "nodejs16.x",
+      },
+      "sa-east-1": Object {
+        "value": "nodejs16.x",
+      },
+      "us-east-1": Object {
+        "value": "nodejs16.x",
+      },
+      "us-east-2": Object {
+        "value": "nodejs16.x",
+      },
+      "us-gov-east-1": Object {
+        "value": "nodejs16.x",
+      },
+      "us-gov-west-1": Object {
+        "value": "nodejs16.x",
+      },
+      "us-iso-east-1": Object {
+        "value": "nodejs14.x",
+      },
+      "us-iso-west-1": Object {
+        "value": "nodejs14.x",
+      },
+      "us-isob-east-1": Object {
+        "value": "nodejs14.x",
+      },
+      "us-west-1": Object {
+        "value": "nodejs16.x",
+      },
+      "us-west-2": Object {
+        "value": "nodejs16.x",
+      },
+    },
+  },
   "Parameters": Object {
     "BootstrapVersion": Object {
       "Default": "/cdk-bootstrap/hnb659fds/version",
@@ -29,7 +132,15 @@ Object {
             "Arn",
           ],
         },
-        "Runtime": "nodejs14.x",
+        "Runtime": Object {
+          "Fn::FindInMap": Array [
+            "DefaultCrNodeVersionMap",
+            Object {
+              "Ref": "AWS::Region",
+            },
+            "value",
+          ],
+        },
         "Tags": Array [
           Object {
             "Key": "ExampleTagKey",
@@ -1901,7 +2012,7 @@ Object {
               Object {
                 "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
               },
-              "/12548e3253d6857c3672734d29bfed642fc96e67b15238c96a700b89eba91557.json",
+              "/d11ad8cb1e2e29837660875d9dfe7acca636c1915cd1be320a396b2aed0a138b.json",
             ],
           ],
         },
@@ -1934,7 +2045,7 @@ Object {
               Object {
                 "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
               },
-              "/2e11639f5f244e0b9be2f6d13cbf9609069cc54c933a9b06e3a0760870bb0604.json",
+              "/360a780c7dbd5b6af4f522cfd516a0a7001c29317b32089361800f4622f30e24.json",
             ],
           ],
         },
@@ -1967,7 +2078,7 @@ Object {
               Object {
                 "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
               },
-              "/cd24b9388f7fa06499ddc65acc4212b0fb28a773543989f5b87059023bd9f1ad.json",
+              "/d9d1945fe5be144482a17de4bd81d72e58df176fc21865a3ba43c1b2f7788fea.json",
             ],
           ],
         },
@@ -2000,7 +2111,7 @@ Object {
               Object {
                 "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
               },
-              "/a5cd9a5f17308e3d1cc3f84f919b065b6a8bb98c5f78a4fe7ddbacbd45811d4d.json",
+              "/ca5e54e9bb5becc4de82054827e849cf87e24e1fb7fcc226d9e28f84d3269b2a.json",
             ],
           ],
         },
