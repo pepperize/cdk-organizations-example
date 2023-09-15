@@ -780,9 +780,9 @@
   integrity sha512-Bq7G3AErwe5A/Zki5fdD3O6+0zDChhg671NfPjtIcbtzDNZTv4NPKMRFr7gtYPG7y+B8uTiNK4Ngd9T0FTar6Q==
 
 "@types/node@^14":
-  version "14.18.59"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.18.59.tgz#2b61a51d875e2a4deb0c6b498ff21a78e691edc6"
-  integrity sha512-NWJMpBL2Xs3MY93yrD6YrrTKep8eIA6iMnfG4oIc6LrTRlBZgiSCGiY3V/Owlp6umIBLyKb4F8Q7hxWatjYH5A==
+  version "14.18.60"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.18.60.tgz#986a33f3d15717d076a68a59ac8656c73e6b4ef5"
+  integrity sha512-F2dfYDznasZ6XfuWvTmQcrElTHfxCdC+F23WCcuAJaIrMIhhBUSARJQdy0lUY+MPDNLqGvTo8/IuiF+QX64IHQ==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
@@ -1179,9 +1179,9 @@ aws-cdk-lib@^2.1.0:
     yaml "1.10.2"
 
 aws-cdk@^2.1.0:
-  version "2.96.1"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.96.1.tgz#daa987a047fea426a1db669e5fbfd14a81e8cc58"
-  integrity sha512-dCMriGZj2w6/B5+bu45knQM9QmPpDoUMiGCzsxALsOJVu/Fr5QwvmHxRBTc48uaVAOlYN2qQsAcG5H6TXtBJhg==
+  version "2.96.2"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.96.2.tgz#49112063e773bebb7b39b2ba834fe61cda40a295"
+  integrity sha512-13ERpPV99OFAD75PLOtl0rRMXTWn6bCrmUPwYKkLwIMkj2xWCBiwo2Y9Qg+UzEszm5NMHA1N4ichSvuZ0mt2IQ==
   optionalDependencies:
     fsevents "2.3.2"
 
