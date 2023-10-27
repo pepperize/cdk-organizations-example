@@ -1166,9 +1166,9 @@ aws-cdk-lib@2.1.0:
     yaml "1.10.2"
 
 aws-cdk-lib@^2.1.0:
-  version "2.103.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.103.0.tgz#8eb99e44048a01fb73222d60bc46c4b38aea6e35"
-  integrity sha512-8shdI77+mq1VkpM6/OjlDh8wXMR2+G0pgL0eZ0UXmH6+oa8OQl/3LlA1OfJOZT90q71gzgL9huXGQC+wfw3hbA==
+  version "2.103.1"
+  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.103.1.tgz#7ad21005e23758553b338f8c785684987c68a800"
+  integrity sha512-Y9P4dv+vdfTiqTGeYebajQ30OiPgsIDGonpaxjQYA1A4RYemYu62bX1J+QQBJh7FNd3amybD7YgJe3jKIUQuHw==
   dependencies:
     "@aws-cdk/asset-awscli-v1" "^2.2.200"
     "@aws-cdk/asset-kubectl-v20" "^2.1.2"
