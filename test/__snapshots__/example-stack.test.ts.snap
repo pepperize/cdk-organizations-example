@@ -20,7 +20,7 @@ Object {
           "S3Bucket": Object {
             "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
           },
-          "S3Key": "cb92a348b5b60bcbbe3888108f15e75877121eb402b4a74526927300fcc54975.zip",
+          "S3Key": "97f30e67419a1676a2215492723e5add1aa491caf0cbe2dd878fc4fab0468cd4.zip",
         },
         "Handler": "index.handler",
         "Role": Object {
@@ -269,7 +269,7 @@ Object {
                   "Roots.0.Id",
                 ],
               },
-              "\\",\\"PolicyType\\":\\"AISERVICES_OPT_OUT_POLICY\\"},\\"ignoreErrorCodesMatching\\":\\"PolicyTypeAlreadyEnabledException\\"}",
+              "\\",\\"PolicyType\\":\\"AISERVICES_OPT_OUT_POLICY\\"},\\"ignoreErrorCodesMatching\\":\\"PolicyTypeAlreadyEnabledException\\",\\"logApiResponseData\\":true}",
             ],
           ],
         },
@@ -284,7 +284,7 @@ Object {
                   "Roots.0.Id",
                 ],
               },
-              "\\",\\"PolicyType\\":\\"AISERVICES_OPT_OUT_POLICY\\"}}",
+              "\\",\\"PolicyType\\":\\"AISERVICES_OPT_OUT_POLICY\\"},\\"logApiResponseData\\":true}",
             ],
           ],
         },
@@ -359,7 +359,7 @@ Object {
                   "Roots.0.Id",
                 ],
               },
-              "\\",\\"PolicyType\\":\\"BACKUP_POLICY\\"},\\"ignoreErrorCodesMatching\\":\\"PolicyTypeAlreadyEnabledException\\"}",
+              "\\",\\"PolicyType\\":\\"BACKUP_POLICY\\"},\\"ignoreErrorCodesMatching\\":\\"PolicyTypeAlreadyEnabledException\\",\\"logApiResponseData\\":true}",
             ],
           ],
         },
@@ -374,7 +374,7 @@ Object {
                   "Roots.0.Id",
                 ],
               },
-              "\\",\\"PolicyType\\":\\"BACKUP_POLICY\\"}}",
+              "\\",\\"PolicyType\\":\\"BACKUP_POLICY\\"},\\"logApiResponseData\\":true}",
             ],
           ],
         },
@@ -430,8 +430,8 @@ Object {
         "Organization06E16095",
       ],
       "Properties": Object {
-        "Create": "{\\"service\\":\\"Organizations\\",\\"action\\":\\"enableAWSServiceAccess\\",\\"region\\":\\"us-east-1\\",\\"physicalResourceId\\":{\\"id\\":\\"config-multiaccountsetup.amazonaws.com\\"},\\"parameters\\":{\\"ServicePrincipal\\":\\"config-multiaccountsetup.amazonaws.com\\"}}",
-        "Delete": "{\\"service\\":\\"Organizations\\",\\"action\\":\\"disableAWSServiceAccess\\",\\"region\\":\\"us-east-1\\",\\"parameters\\":{\\"ServicePrincipal\\":\\"config-multiaccountsetup.amazonaws.com\\"}}",
+        "Create": "{\\"service\\":\\"Organizations\\",\\"action\\":\\"enableAWSServiceAccess\\",\\"region\\":\\"us-east-1\\",\\"physicalResourceId\\":{\\"id\\":\\"config-multiaccountsetup.amazonaws.com\\"},\\"parameters\\":{\\"ServicePrincipal\\":\\"config-multiaccountsetup.amazonaws.com\\"},\\"logApiResponseData\\":true}",
+        "Delete": "{\\"service\\":\\"Organizations\\",\\"action\\":\\"disableAWSServiceAccess\\",\\"region\\":\\"us-east-1\\",\\"parameters\\":{\\"ServicePrincipal\\":\\"config-multiaccountsetup.amazonaws.com\\"},\\"logApiResponseData\\":true}",
         "InstallLatestAwsSdk": false,
         "ServiceToken": Object {
           "Fn::GetAtt": Array [
@@ -502,7 +502,7 @@ Object {
                   "Roots.0.Id",
                 ],
               },
-              "\\",\\"PolicyType\\":\\"SERVICE_CONTROL_POLICY\\"},\\"ignoreErrorCodesMatching\\":\\"PolicyTypeAlreadyEnabledException\\"}",
+              "\\",\\"PolicyType\\":\\"SERVICE_CONTROL_POLICY\\"},\\"ignoreErrorCodesMatching\\":\\"PolicyTypeAlreadyEnabledException\\",\\"logApiResponseData\\":true}",
             ],
           ],
         },
@@ -517,7 +517,7 @@ Object {
                   "Roots.0.Id",
                 ],
               },
-              "\\",\\"PolicyType\\":\\"SERVICE_CONTROL_POLICY\\"}}",
+              "\\",\\"PolicyType\\":\\"SERVICE_CONTROL_POLICY\\"},\\"logApiResponseData\\":true}",
             ],
           ],
         },
@@ -571,8 +571,8 @@ Object {
         "Organization06E16095",
       ],
       "Properties": Object {
-        "Create": "{\\"service\\":\\"Organizations\\",\\"action\\":\\"enableAWSServiceAccess\\",\\"region\\":\\"us-east-1\\",\\"physicalResourceId\\":{\\"id\\":\\"ssm.amazonaws.com\\"},\\"parameters\\":{\\"ServicePrincipal\\":\\"ssm.amazonaws.com\\"}}",
-        "Delete": "{\\"service\\":\\"Organizations\\",\\"action\\":\\"disableAWSServiceAccess\\",\\"region\\":\\"us-east-1\\",\\"parameters\\":{\\"ServicePrincipal\\":\\"ssm.amazonaws.com\\"}}",
+        "Create": "{\\"service\\":\\"Organizations\\",\\"action\\":\\"enableAWSServiceAccess\\",\\"region\\":\\"us-east-1\\",\\"physicalResourceId\\":{\\"id\\":\\"ssm.amazonaws.com\\"},\\"parameters\\":{\\"ServicePrincipal\\":\\"ssm.amazonaws.com\\"},\\"logApiResponseData\\":true}",
+        "Delete": "{\\"service\\":\\"Organizations\\",\\"action\\":\\"disableAWSServiceAccess\\",\\"region\\":\\"us-east-1\\",\\"parameters\\":{\\"ServicePrincipal\\":\\"ssm.amazonaws.com\\"},\\"logApiResponseData\\":true}",
         "InstallLatestAwsSdk": false,
         "ServiceToken": Object {
           "Fn::GetAtt": Array [
@@ -673,7 +673,7 @@ Object {
                   "Roots.0.Id",
                 ],
               },
-              "\\",\\"PolicyType\\":\\"TAG_POLICY\\"},\\"ignoreErrorCodesMatching\\":\\"PolicyTypeAlreadyEnabledException\\"}",
+              "\\",\\"PolicyType\\":\\"TAG_POLICY\\"},\\"ignoreErrorCodesMatching\\":\\"PolicyTypeAlreadyEnabledException\\",\\"logApiResponseData\\":true}",
             ],
           ],
         },
@@ -688,7 +688,7 @@ Object {
                   "Roots.0.Id",
                 ],
               },
-              "\\",\\"PolicyType\\":\\"TAG_POLICY\\"}}",
+              "\\",\\"PolicyType\\":\\"TAG_POLICY\\"},\\"logApiResponseData\\":true}",
             ],
           ],
         },
@@ -710,8 +710,8 @@ Object {
         "OrganizationRootRootCustomResourceCustomResourcePolicyB45F831E",
       ],
       "Properties": Object {
-        "Create": "{\\"service\\":\\"Organizations\\",\\"action\\":\\"listRoots\\",\\"region\\":\\"us-east-1\\",\\"physicalResourceId\\":{\\"responsePath\\":\\"Roots.0.Id\\"}}",
-        "Delete": "{\\"service\\":\\"Organizations\\",\\"action\\":\\"listRoots\\",\\"region\\":\\"us-east-1\\"}",
+        "Create": "{\\"service\\":\\"Organizations\\",\\"action\\":\\"listRoots\\",\\"region\\":\\"us-east-1\\",\\"physicalResourceId\\":{\\"responsePath\\":\\"Roots.0.Id\\"},\\"logApiResponseData\\":true}",
+        "Delete": "{\\"service\\":\\"Organizations\\",\\"action\\":\\"listRoots\\",\\"region\\":\\"us-east-1\\",\\"logApiResponseData\\":true}",
         "InstallLatestAwsSdk": false,
         "ServiceToken": Object {
           "Fn::GetAtt": Array [
@@ -719,7 +719,7 @@ Object {
             "Arn",
           ],
         },
-        "Update": "{\\"service\\":\\"Organizations\\",\\"action\\":\\"listRoots\\",\\"region\\":\\"us-east-1\\",\\"physicalResourceId\\":{\\"responsePath\\":\\"Roots.0.Id\\"}}",
+        "Update": "{\\"service\\":\\"Organizations\\",\\"action\\":\\"listRoots\\",\\"region\\":\\"us-east-1\\",\\"physicalResourceId\\":{\\"responsePath\\":\\"Roots.0.Id\\"},\\"logApiResponseData\\":true}",
       },
       "Type": "Custom::Organizations_Root",
       "UpdateReplacePolicy": "Delete",
@@ -800,8 +800,8 @@ Object {
         "OrganizationTrailEnableAWSServiceAccessCustomResourcePolicy11A32EEC",
       ],
       "Properties": Object {
-        "Create": "{\\"service\\":\\"Organizations\\",\\"action\\":\\"enableAWSServiceAccess\\",\\"physicalResourceId\\":{\\"id\\":\\"EnableAWSServiceAccess\\"},\\"region\\":\\"us-east-1\\",\\"parameters\\":{\\"ServicePrincipal\\":\\"cloudtrail.amazonaws.com\\"}}",
-        "Delete": "{\\"service\\":\\"Organizations\\",\\"action\\":\\"disableAWSServiceAccess\\",\\"region\\":\\"us-east-1\\",\\"parameters\\":{\\"ServicePrincipal\\":\\"cloudtrail.amazonaws.com\\"}}",
+        "Create": "{\\"service\\":\\"Organizations\\",\\"action\\":\\"enableAWSServiceAccess\\",\\"physicalResourceId\\":{\\"id\\":\\"EnableAWSServiceAccess\\"},\\"region\\":\\"us-east-1\\",\\"parameters\\":{\\"ServicePrincipal\\":\\"cloudtrail.amazonaws.com\\"},\\"logApiResponseData\\":true}",
+        "Delete": "{\\"service\\":\\"Organizations\\",\\"action\\":\\"disableAWSServiceAccess\\",\\"region\\":\\"us-east-1\\",\\"parameters\\":{\\"ServicePrincipal\\":\\"cloudtrail.amazonaws.com\\"},\\"logApiResponseData\\":true}",
         "InstallLatestAwsSdk": false,
         "ServiceToken": Object {
           "Fn::GetAtt": Array [
@@ -1034,11 +1034,11 @@ Object {
               Object {
                 "Ref": "OrganizationTrailOrganizationTrailBucket31446F20",
               },
-              "\\"}}",
+              "\\"},\\"logApiResponseData\\":true}",
             ],
           ],
         },
-        "Delete": "{\\"service\\":\\"CloudTrail\\",\\"action\\":\\"deleteTrail\\",\\"parameters\\":{\\"Name\\":\\"OrganizationTrail\\"}}",
+        "Delete": "{\\"service\\":\\"CloudTrail\\",\\"action\\":\\"deleteTrail\\",\\"parameters\\":{\\"Name\\":\\"OrganizationTrail\\"},\\"logApiResponseData\\":true}",
         "InstallLatestAwsSdk": false,
         "ServiceToken": Object {
           "Fn::GetAtt": Array [
@@ -1167,8 +1167,8 @@ Object {
         "OrganizationTrailOrganizationTrailStartLoggingCustomResourcePolicyF222534F",
       ],
       "Properties": Object {
-        "Create": "{\\"service\\":\\"CloudTrail\\",\\"action\\":\\"startLogging\\",\\"physicalResourceId\\":{\\"id\\":\\"OrganizationTrailStartLogging\\"},\\"parameters\\":{\\"Name\\":\\"OrganizationTrail\\"}}",
-        "Delete": "{\\"service\\":\\"CloudTrail\\",\\"action\\":\\"stopLogging\\",\\"physicalResourceId\\":{\\"id\\":\\"OrganizationTrailStartLogging\\"},\\"parameters\\":{\\"Name\\":\\"OrganizationTrail\\"}}",
+        "Create": "{\\"service\\":\\"CloudTrail\\",\\"action\\":\\"startLogging\\",\\"physicalResourceId\\":{\\"id\\":\\"OrganizationTrailStartLogging\\"},\\"parameters\\":{\\"Name\\":\\"OrganizationTrail\\"},\\"logApiResponseData\\":true}",
+        "Delete": "{\\"service\\":\\"CloudTrail\\",\\"action\\":\\"stopLogging\\",\\"physicalResourceId\\":{\\"id\\":\\"OrganizationTrailStartLogging\\"},\\"parameters\\":{\\"Name\\":\\"OrganizationTrail\\"},\\"logApiResponseData\\":true}",
         "InstallLatestAwsSdk": false,
         "ServiceToken": Object {
           "Fn::GetAtt": Array [
@@ -1821,7 +1821,7 @@ Object {
               Object {
                 "Ref": "AWS::Region",
               },
-              "\\"}",
+              "\\",\\"logApiResponseData\\":true}",
             ],
           ],
         },
@@ -1833,7 +1833,7 @@ Object {
               Object {
                 "Ref": "AWS::Region",
               },
-              "\\"}",
+              "\\",\\"logApiResponseData\\":true}",
             ],
           ],
         },
