@@ -50,10 +50,10 @@ Object {
         "value": "nodejs20.x",
       },
       "cn-north-1": Object {
-        "value": "nodejs18.x",
+        "value": "nodejs20.x",
       },
       "cn-northwest-1": Object {
-        "value": "nodejs18.x",
+        "value": "nodejs20.x",
       },
       "eu-central-1": Object {
         "value": "nodejs20.x",
@@ -104,10 +104,10 @@ Object {
         "value": "nodejs20.x",
       },
       "us-gov-east-1": Object {
-        "value": "nodejs18.x",
+        "value": "nodejs20.x",
       },
       "us-gov-west-1": Object {
-        "value": "nodejs18.x",
+        "value": "nodejs20.x",
       },
       "us-iso-east-1": Object {
         "value": "nodejs18.x",
@@ -144,7 +144,7 @@ Object {
           "S3Bucket": Object {
             "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
           },
-          "S3Key": "ce2f3595a340d6c519a65888ef97e3b9b64f053f83608e32cc28162e22d7d99a.zip",
+          "S3Key": "4cd2f2411231aa073e609dc99a49b5c5e974252bf9abf0f9350d237d17cce8be.zip",
         },
         "Handler": "index.handler",
         "Role": Object {
@@ -2033,7 +2033,7 @@ Object {
               Object {
                 "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
               },
-              "/30fa57877173acfdb521eea6b32c4d7ef94878e4d536cdfb0a1c568797fc3feb.json",
+              "/8a848bb36db112081877af4c31f0c1031da38aac5e739771baf80f5e974ffa83.json",
             ],
           ],
         },
@@ -2066,7 +2066,7 @@ Object {
               Object {
                 "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
               },
-              "/834f25bb7fb1347835b6cb1baff66480a38473d873ac2b264d60bd310c0f6d8d.json",
+              "/2c2992724e923c11dc79b1d23623cb624d5894aa567681ccd2b86f4dc16ffbcf.json",
             ],
           ],
         },
@@ -2099,7 +2099,7 @@ Object {
               Object {
                 "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
               },
-              "/0f17444eec97da801631f9fb8e4518a36513456100807c785c4072f188affb00.json",
+              "/31072b4cf1a749108803878d79f809b82592958ae075e8e75dbf710eb91f315b.json",
             ],
           ],
         },
@@ -2132,7 +2132,7 @@ Object {
               Object {
                 "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
               },
-              "/b1852f4bcc5c7e81517267b79888f3c2291a599dfd33f540a3d2295a9cf16aa4.json",
+              "/a5ed1122979a0fb0788a906a4893d1401d1669298878758fbc4d384fda09a038.json",
             ],
           ],
         },
