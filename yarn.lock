@@ -15,11 +15,6 @@
   resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.215.tgz#430a39a597d79f6652192f3cee2700faa2b60dd9"
   integrity sha512-D+Jzwpl+zlBGjJf7nuRcz6JFNwqDQ+IzwIq0VSC4LMRRvrkhGE/ZE+zab3EnjmVkipcQqtQe+PVKefgmxETbvA==
 
-"@aws-cdk/asset-kubectl-v20@^2.1.3":
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-kubectl-v20/-/asset-kubectl-v20-2.1.3.tgz#80e09004be173995e91614e34d947da11dd9ff4d"
-  integrity sha512-cDG1w3ieM6eOT9mTefRuTypk95+oyD7P5X/wRltwmYxU7nZc3+076YEVS6vrjDKr3ADYbfn0lDKpfB1FBtO9CQ==
-
 "@aws-cdk/asset-node-proxy-agent-v6@^2.1.0":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v6/-/asset-node-proxy-agent-v6-2.1.0.tgz#6d3c7860354d4856a7e75375f2f0ecab313b4989"
@@ -1257,12 +1252,11 @@ aws-cdk-lib@2.1.0:
     yaml "1.10.2"
 
 aws-cdk-lib@^2.1.0:
-  version "2.178.2"
-  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.178.2.tgz#2ab3d681f41617e10bbc3e730eb34bba120e43e3"
-  integrity sha512-8UZFzQMlP0exyfddQZrle5dAW+oahlUHKMnBTvnPT1zQNT1KkSnwL9ObthoV0tl+cllIyd1tbz2sOsKVf7qgtw==
+  version "2.179.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.179.0.tgz#18d1989de157fb21fe280fce3fb63feced5dfe5c"
+  integrity sha512-fwkoEzvh3TXYj+GPkyq/GSQt63JJV1dBgDKwr3xRdb8lQaPntSclmisa+ARO8tjPfkru1NqxAFQTtiqtAE83cA==
   dependencies:
     "@aws-cdk/asset-awscli-v1" "^2.2.208"
-    "@aws-cdk/asset-kubectl-v20" "^2.1.3"
     "@aws-cdk/asset-node-proxy-agent-v6" "^2.1.0"
     "@aws-cdk/cloud-assembly-schema" "^39.2.0"
     "@balena/dockerignore" "^1.0.2"
@@ -1278,9 +1272,9 @@ aws-cdk-lib@^2.1.0:
     yaml "1.10.2"
 
 aws-cdk@^2.1.0:
-  version "2.178.2"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.178.2.tgz#bda02f8b5e2bee1d1ec4ce21477f8845f4a7675d"
-  integrity sha512-ojMCMnBGinvDUD6+BOOlUOB9pjsYXoQdFVbf4bvi3dy3nwn557r0j6qDUcJMeikzPJ6YWzfAdL0fYxBZg4xcOg==
+  version "2.1000.1"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.1000.1.tgz#2ff008c2f87c3573267f5f4388b07e0df9d05d3d"
+  integrity sha512-1hccUeH5fQeFSAhJITACw3Gs7JWO3EknxSvRARXBZLSy74RV1a2gk8T1yGyO+jtCd38OqhXmbwTinLs2MX4/eg==
   optionalDependencies:
     fsevents "2.3.2"
 
