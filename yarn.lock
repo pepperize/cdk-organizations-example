@@ -688,9 +688,9 @@
     pascal-case "^3.1.2"
 
 "@pepperize/projen-awscdk-app-ts@~0.0.603":
-  version "0.0.662"
-  resolved "https://registry.yarnpkg.com/@pepperize/projen-awscdk-app-ts/-/projen-awscdk-app-ts-0.0.662.tgz#316663ba9cc1a64e3345045316b925ba71feba20"
-  integrity sha512-f2BjHGaa89LzmliZafu4+8uZhfbel7FISmrAM4kXPJCGt68Pk9nO8mcY7UKkytYBwH0iC6cHjAYZSJ25Bmz0tQ==
+  version "0.0.666"
+  resolved "https://registry.yarnpkg.com/@pepperize/projen-awscdk-app-ts/-/projen-awscdk-app-ts-0.0.666.tgz#29555c5dfb9c1bfbd21c655475bbcdd2213840cc"
+  integrity sha512-qy5k0RcjKbl8ek7TzCZLovEg/Yuj8iFWtO3em8+JTaugu1qlI1vL+4+5XNUKgUxGMjR1IlJFv9A45oyiLf701w==
 
 "@rtsao/scc@^1.1.0":
   version "1.1.0"
@@ -1250,9 +1250,9 @@ aws-cdk-lib@2.1.0:
     yaml "1.10.2"
 
 aws-cdk-lib@^2.1.0:
-  version "2.184.1"
-  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.184.1.tgz#0e66c9a82a1ac7dc25696520aaf4640f5198624c"
-  integrity sha512-No9g0SGadiDz0IEUIeJg4wSV/jFCGcouW2zUOTjV8OU4gTMoGiqC8BYSv7E6ucUtW6rmSFVK+pbc8XOFZOo1cg==
+  version "2.185.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.185.0.tgz#5df9348b0d40ac3b4e5452aba2ec706ba59950dc"
+  integrity sha512-RNcQeNnInumDF1hq3gAf+/A6jhvYDof5a7418gEs/y6359gTYZpTCQkgItC50iV3MmkgerrBAdOE7CDEtQNDWw==
   dependencies:
     "@aws-cdk/asset-awscli-v1" "^2.2.227"
     "@aws-cdk/asset-node-proxy-agent-v6" "^2.1.0"
