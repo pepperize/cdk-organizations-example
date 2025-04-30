@@ -118,6 +118,9 @@ Object {
       "us-isob-east-1": Object {
         "value": "nodejs18.x",
       },
+      "us-isob-west-1": Object {
+        "value": "nodejs18.x",
+      },
       "us-west-1": Object {
         "value": "nodejs20.x",
       },
@@ -2033,7 +2036,7 @@ Object {
               Object {
                 "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
               },
-              "/aafcab3119b97653d27e1409188adda435fc244c31e562a660b49763be294e1e.json",
+              "/f69a2d8aebbf58bdaecd8d767751fc2606174f8fbc9aaec770f24ea7d2ecd36b.json",
             ],
           ],
         },
@@ -2066,7 +2069,7 @@ Object {
               Object {
                 "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
               },
-              "/15c11378e7b919dbc037c533970b1a83c7b1e603dc3c75dd2f433112dc02d4b7.json",
+              "/48c16c1a030329887661265a14f8135ae00483c9035e942ecc45bd5082c069a5.json",
             ],
           ],
         },
@@ -2099,7 +2102,7 @@ Object {
               Object {
                 "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
               },
-              "/c703a8d4f02a98a8ad8b7d60e3ad6cf25a1aa07f9dea04bda88d3d59d0d9b1aa.json",
+              "/81cff6c622be951e67fc8e1c469071763024b312594831da08a5db031433534b.json",
             ],
           ],
         },
@@ -2132,7 +2135,7 @@ Object {
               Object {
                 "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
               },
-              "/cc785b8e1b04fa8ad7e5871fc44babbc5a25a3bd98df3501e25513046f1b76d6.json",
+              "/4609d3ef32741a40e649571ef133091068949bd8b680a204b8861faa4e505a27.json",
             ],
           ],
         },
