@@ -5,112 +5,112 @@ Object {
   "Mappings": Object {
     "LatestNodeRuntimeMap": Object {
       "af-south-1": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "ap-east-1": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "ap-east-2": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "ap-northeast-1": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "ap-northeast-2": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "ap-northeast-3": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "ap-south-1": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "ap-south-2": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "ap-southeast-1": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "ap-southeast-2": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "ap-southeast-3": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "ap-southeast-4": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "ap-southeast-5": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "ap-southeast-7": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "ca-central-1": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "ca-west-1": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "cn-north-1": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "cn-northwest-1": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "eu-central-1": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "eu-central-2": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "eu-isoe-west-1": Object {
         "value": "nodejs18.x",
       },
       "eu-north-1": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "eu-south-1": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "eu-south-2": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "eu-west-1": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "eu-west-2": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "eu-west-3": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "il-central-1": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "me-central-1": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "me-south-1": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "mx-central-1": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "sa-east-1": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "us-east-1": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "us-east-2": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "us-gov-east-1": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "us-gov-west-1": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "us-iso-east-1": Object {
         "value": "nodejs18.x",
@@ -125,10 +125,10 @@ Object {
         "value": "nodejs18.x",
       },
       "us-west-1": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
       "us-west-2": Object {
-        "value": "nodejs20.x",
+        "value": "nodejs22.x",
       },
     },
   },
@@ -2039,7 +2039,7 @@ Object {
               Object {
                 "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
               },
-              "/6bc920336b9cf14ae8b78f7cae6f27dba412659cda56975a6d1c1231acf34084.json",
+              "/c5f7d492f294cc40b9116180383dbacaffd8b83bff2ce12a29d7e080f0376ca3.json",
             ],
           ],
         },
@@ -2072,7 +2072,7 @@ Object {
               Object {
                 "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
               },
-              "/63ff403e008dd78d364ff522c8c80bf69ead11b94731412f05a2d18b4e0949be.json",
+              "/4b1f62d8a374e4885163e659bcbaad17bb5157cbd370e1dd789ca735c4a5f83e.json",
             ],
           ],
         },
@@ -2105,7 +2105,7 @@ Object {
               Object {
                 "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
               },
-              "/3adda2c58569e71430404b0a6a144eeead74a352250a09ebd5118536e7771395.json",
+              "/c1a26e586214f841e18c72c457361157416cd0db0dac38c65a75df1762473472.json",
             ],
           ],
         },
@@ -2138,7 +2138,7 @@ Object {
               Object {
                 "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
               },
-              "/cde3d658e9022cdc2508014a83a1b0d137a002c0acfca28094d26b73062533ab.json",
+              "/d7c4b1984885cd3681fd069980cc70399cc64015e03c95064463ff61824438f0.json",
             ],
           ],
         },
