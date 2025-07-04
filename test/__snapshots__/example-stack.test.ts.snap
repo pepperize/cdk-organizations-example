@@ -85,6 +85,9 @@ Object {
       "eu-west-3": Object {
         "value": "nodejs22.x",
       },
+      "eusc-de-east-1": Object {
+        "value": "nodejs22.x",
+      },
       "il-central-1": Object {
         "value": "nodejs22.x",
       },
@@ -2039,7 +2042,7 @@ Object {
               Object {
                 "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
               },
-              "/c5f7d492f294cc40b9116180383dbacaffd8b83bff2ce12a29d7e080f0376ca3.json",
+              "/9cd14f7c71c0b58353c6955753046cc49e20a0612c9a762fd9ea1f83511fe19c.json",
             ],
           ],
         },
@@ -2072,7 +2075,7 @@ Object {
               Object {
                 "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
               },
-              "/4b1f62d8a374e4885163e659bcbaad17bb5157cbd370e1dd789ca735c4a5f83e.json",
+              "/3a9c3492318c056bb7b674c185d0df8cf890c1565c06ced2a792ede1577a513b.json",
             ],
           ],
         },
@@ -2105,7 +2108,7 @@ Object {
               Object {
                 "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
               },
-              "/c1a26e586214f841e18c72c457361157416cd0db0dac38c65a75df1762473472.json",
+              "/9bf3ceebb8ebc4f85516eff1a8905fd09a539fda01bd428b4057c511e90f4d4b.json",
             ],
           ],
         },
@@ -2138,7 +2141,7 @@ Object {
               Object {
                 "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
               },
-              "/d7c4b1984885cd3681fd069980cc70399cc64015e03c95064463ff61824438f0.json",
+              "/93b187ea51ced9691e499a705c22d6bfd3df55f2cf5d44833b195522f5f24792.json",
             ],
           ],
         },
