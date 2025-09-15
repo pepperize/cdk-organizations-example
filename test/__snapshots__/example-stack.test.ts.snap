@@ -2,6 +2,148 @@
 
 exports[`OrganizationStack Should have snapshot 1`] = `
 Object {
+  "Mappings": Object {
+    "LatestNodeRuntimeMap": Object {
+      "af-south-1": Object {
+        "value": "nodejs22.x",
+      },
+      "ap-east-1": Object {
+        "value": "nodejs22.x",
+      },
+      "ap-east-2": Object {
+        "value": "nodejs22.x",
+      },
+      "ap-northeast-1": Object {
+        "value": "nodejs22.x",
+      },
+      "ap-northeast-2": Object {
+        "value": "nodejs22.x",
+      },
+      "ap-northeast-3": Object {
+        "value": "nodejs22.x",
+      },
+      "ap-south-1": Object {
+        "value": "nodejs22.x",
+      },
+      "ap-south-2": Object {
+        "value": "nodejs22.x",
+      },
+      "ap-southeast-1": Object {
+        "value": "nodejs22.x",
+      },
+      "ap-southeast-2": Object {
+        "value": "nodejs22.x",
+      },
+      "ap-southeast-3": Object {
+        "value": "nodejs22.x",
+      },
+      "ap-southeast-4": Object {
+        "value": "nodejs22.x",
+      },
+      "ap-southeast-5": Object {
+        "value": "nodejs22.x",
+      },
+      "ap-southeast-6": Object {
+        "value": "nodejs22.x",
+      },
+      "ap-southeast-7": Object {
+        "value": "nodejs22.x",
+      },
+      "ca-central-1": Object {
+        "value": "nodejs22.x",
+      },
+      "ca-west-1": Object {
+        "value": "nodejs22.x",
+      },
+      "cn-north-1": Object {
+        "value": "nodejs22.x",
+      },
+      "cn-northwest-1": Object {
+        "value": "nodejs22.x",
+      },
+      "eu-central-1": Object {
+        "value": "nodejs22.x",
+      },
+      "eu-central-2": Object {
+        "value": "nodejs22.x",
+      },
+      "eu-isoe-west-1": Object {
+        "value": "nodejs22.x",
+      },
+      "eu-north-1": Object {
+        "value": "nodejs22.x",
+      },
+      "eu-south-1": Object {
+        "value": "nodejs22.x",
+      },
+      "eu-south-2": Object {
+        "value": "nodejs22.x",
+      },
+      "eu-west-1": Object {
+        "value": "nodejs22.x",
+      },
+      "eu-west-2": Object {
+        "value": "nodejs22.x",
+      },
+      "eu-west-3": Object {
+        "value": "nodejs22.x",
+      },
+      "eusc-de-east-1": Object {
+        "value": "nodejs22.x",
+      },
+      "il-central-1": Object {
+        "value": "nodejs22.x",
+      },
+      "me-central-1": Object {
+        "value": "nodejs22.x",
+      },
+      "me-south-1": Object {
+        "value": "nodejs22.x",
+      },
+      "mx-central-1": Object {
+        "value": "nodejs22.x",
+      },
+      "sa-east-1": Object {
+        "value": "nodejs22.x",
+      },
+      "us-east-1": Object {
+        "value": "nodejs22.x",
+      },
+      "us-east-2": Object {
+        "value": "nodejs22.x",
+      },
+      "us-gov-east-1": Object {
+        "value": "nodejs22.x",
+      },
+      "us-gov-west-1": Object {
+        "value": "nodejs22.x",
+      },
+      "us-iso-east-1": Object {
+        "value": "nodejs22.x",
+      },
+      "us-iso-west-1": Object {
+        "value": "nodejs22.x",
+      },
+      "us-isob-east-1": Object {
+        "value": "nodejs18.x",
+      },
+      "us-isob-west-1": Object {
+        "value": "nodejs18.x",
+      },
+      "us-isof-east-1": Object {
+        "value": "nodejs22.x",
+      },
+      "us-isof-south-1": Object {
+        "value": "nodejs22.x",
+      },
+      "us-west-1": Object {
+        "value": "nodejs22.x",
+      },
+      "us-west-2": Object {
+        "value": "nodejs22.x",
+      },
+    },
+  },
   "Parameters": Object {
     "BootstrapVersion": Object {
       "Default": "/cdk-bootstrap/hnb659fds/version",
@@ -29,7 +171,15 @@ Object {
             "Arn",
           ],
         },
-        "Runtime": "nodejs22.x",
+        "Runtime": Object {
+          "Fn::FindInMap": Array [
+            "LatestNodeRuntimeMap",
+            Object {
+              "Ref": "AWS::Region",
+            },
+            "value",
+          ],
+        },
         "Tags": Array [
           Object {
             "Key": "ExampleTagKey",
@@ -1901,7 +2051,7 @@ Object {
               Object {
                 "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
               },
-              "/7f60b79afc9196479bfbf410050aca91b7978291972c56ee03b80357ebd655f7.json",
+              "/1684897b6afe61c302df7f80e358d1866b7f04bc6dd9788fa659c78f28ca41d5.json",
             ],
           ],
         },
@@ -1934,7 +2084,7 @@ Object {
               Object {
                 "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
               },
-              "/3a2c31a44b187d9c7fa910ecfe1277794c85c8add10791f6528d3adab1c1929b.json",
+              "/3346787df9c6521286d6b4b51d85db645434882fe5b57b504c1b231adca16ea0.json",
             ],
           ],
         },
@@ -1967,7 +2117,7 @@ Object {
               Object {
                 "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
               },
-              "/d19e86716949b93e4d72da7c2a0a3c73d9eec3d9929d197fcbad52f00e842920.json",
+              "/15a7c5a5929741cc8fbe0d7be570de56d210386f222976355a7aed3c986ba1a9.json",
             ],
           ],
         },
@@ -2000,7 +2150,7 @@ Object {
               Object {
                 "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
               },
-              "/6a9143d1f560246e056014a401d42ab00156c2ecaf716c34be0476a95f6b3107.json",
+              "/65db66f8bce784c8d961fe8ad4696d16c4bf95c7ed21be74c13d4615f53dd7de.json",
             ],
           ],
         },
