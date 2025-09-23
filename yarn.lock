@@ -688,9 +688,9 @@
     pascal-case "^3.1.2"
 
 "@pepperize/projen-awscdk-app-ts@~0.0.603":
-  version "0.0.765"
-  resolved "https://registry.yarnpkg.com/@pepperize/projen-awscdk-app-ts/-/projen-awscdk-app-ts-0.0.765.tgz#fb0aa65b5669ae6016e086f97a25beba3901eb95"
-  integrity sha512-z0bOuBwh4vJZZtFYvCI2G4ueh/t/YUN/bT4Vgp4upKNnCV6aiEnUNh1o6XYQpGspveF1BLN+uIET5FUvFpOSJQ==
+  version "0.0.766"
+  resolved "https://registry.yarnpkg.com/@pepperize/projen-awscdk-app-ts/-/projen-awscdk-app-ts-0.0.766.tgz#4acd095d0d86adb8a6d56dc7b26282c7d782e585"
+  integrity sha512-SUzb13SkN7DF42aymnFQvabtHVeGTMdmh7EKmbvQ6/2R2YPRwR0W4OPjqLOghdPTACGYKYHAGqj8uZgYNgn5oA==
 
 "@rtsao/scc@^1.1.0":
   version "1.1.0"
