@@ -1276,9 +1276,9 @@ aws-cdk-lib@2.1.0:
     yaml "1.10.2"
 
 aws-cdk-lib@^2.1.0:
-  version "2.229.1"
-  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.229.1.tgz#c83864f130ac3eb3c117e38b30b362788f93e527"
-  integrity sha512-G+evkEWB5uR7ZeIRnDr3XEARK8ACics4bsut15FNe0vLWogWwKc9gSXtZrI1Z5XWlf3zp6kbZlPOE3FJ23D1Ng==
+  version "2.230.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.230.0.tgz#551a35de9e72ad9625484099f9d341b53930e894"
+  integrity sha512-hA1cWZAHpvrwJE55N77Km/aPUgN9NfbGm98vi91OeLKFgMVhdCXM57lJUAYTq0e8JHWFRWmsVlm9R8pq5jTJeA==
   dependencies:
     "@aws-cdk/asset-awscli-v1" "2.2.242"
     "@aws-cdk/asset-node-proxy-agent-v6" "^2.1.0"
