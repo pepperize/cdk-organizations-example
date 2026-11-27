@@ -18,7 +18,7 @@ const project = new AwsCdkTypeScriptApp({
 
   deps: ["@pepperize/cdk-organizations@^0.8.0", "aws-bootstrap-kit@^0.7.8", "@seeebiii/ses-verify-identities@^4.2.3"],
   typescriptVersion: "~6.0",
-  devDeps: ["@pepperize/projen-awscdk-app-ts@~0.1.1", "@types/node@^22"],
+  devDeps: ["@pepperize/projen-awscdk-app-ts@~0.1.2", "@types/node@^22"],
 
   requireApproval: awscdk.ApprovalLevel.NEVER,
 });
