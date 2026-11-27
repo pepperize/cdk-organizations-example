@@ -1050,10 +1050,10 @@
   dependencies:
     pascal-case "^3"
 
-"@pepperize/projen-awscdk-app-ts@~0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@pepperize/projen-awscdk-app-ts/-/projen-awscdk-app-ts-0.1.1.tgz#b3e77874dda41c2c399b52fd5124b78939016315"
-  integrity sha512-c2dammV2k43ePXb7K7+YnDEeRq/SW4IKRe+mNJUkuumk8fHmYERVwOf1vYlJNi/7eU6SpTdxKWqRJekgugqepQ==
+"@pepperize/projen-awscdk-app-ts@~0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@pepperize/projen-awscdk-app-ts/-/projen-awscdk-app-ts-0.1.2.tgz#83fe6c812a5b42695f4dd52b6c25a63dbd24b240"
+  integrity sha512-tdJBGLMYxVNPxfMC8LnvxHOCBsWvwB0WS8RSJO00KtZxXE72b8pthUgkSXPDve39DrRrEePbu84NOcqhpajSCw==
 
 "@pkgjs/parseargs@^0.11.0":
   version "0.11.0"

@@ -20,5 +20,13 @@ pull_request_rules:
       - "#approved-reviews-by>=1"
       - -label~=(do-not-merge)
       - status-success=build
+  - name: Recreate conflicting dependabot pull requests
+    conditions:
+      - author=dependabot[bot]
+      - conflict
+      - -closed
+    actions:
+      comment:
+        message: "@dependabot recreate"
 merge_queue:
   max_parallel_checks: 1
